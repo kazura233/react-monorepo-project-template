@@ -1,4 +1,4 @@
-import { defineConfig, ENV } from '.'
+import { defineConfig, ENV } from './define'
 
 export default defineConfig({
   ENV: ENV.development,
