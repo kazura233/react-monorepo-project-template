@@ -13,7 +13,13 @@ export const PageHelloWorld: React.FC = () => {
   const [value, setValue] = useState(0)
 
   return (
-    <div>
+    <div
+      css={`
+        p {
+          background: #ccc;
+        }
+      `}
+    >
       <p>PageHelloWorld</p>
       <p>num: {num}</p>
       <p>
