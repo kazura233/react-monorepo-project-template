@@ -11,21 +11,7 @@ export default defineConfig({
       '~': resolve(__dirname, 'src'),
     },
   },
-  plugins: [
-    eslint(),
-    react({
-      babel: {
-        plugins: [
-          [
-            'babel-plugin-styled-components',
-            {
-              displayName: true,
-            },
-          ],
-        ],
-      },
-    }),
-  ],
+  plugins: [eslint(), react()],
   server: {
     host: '0.0.0.0',
     // proxy: {
