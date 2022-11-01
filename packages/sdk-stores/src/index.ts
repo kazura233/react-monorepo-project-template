@@ -1,6 +1,7 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit'
 import { logger } from 'redux-logger'
-import { demoSlice } from './demo'
+
+import { demoSlice } from './demo/demo-slice'
 
 export * from 'immer'
 export * from 'redux-thunk'
@@ -11,7 +12,12 @@ export const store = configureStore({
   reducer: {
     demo: demoSlice.reducer,
   },
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoreActions: true,
+      },
+    }).concat(logger),
 })
 
 export type AppDispatch = typeof store.dispatch
