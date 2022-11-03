@@ -2,6 +2,7 @@
   "name": "project-mobile",
   "private": true,
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "dev": "cross-env VITE_ENV=local vite",
     "dev:dev": "cross-env VITE_ENV=development vite",
@@ -37,12 +38,15 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "@types/redux-logger": "^3.0.9",
-    "@vitejs/plugin-react": "^1.3.2",
+    "@vitejs/plugin-react": "^2.2.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.18.0",
     "redux-logger": "^3.0.6",
-    "typescript": "^4.7.4",
-    "vite": "^2.9.13",
-    "vite-plugin-eslint": "^1.6.1"
+    "typescript": "^4.8.4",
+    "vite": "^3.2.2",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
