@@ -1,14 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import eslint from 'vite-plugin-eslint'
-import { resolve } from 'path'
+import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   base: './',
   resolve: {
     alias: {
-      '~': resolve(__dirname, 'src'),
+      '~': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
   plugins: [eslint(), react()],
@@ -21,5 +21,8 @@ export default defineConfig({
     //     changeOrigin: true,
     //   },
     // },
+  },
+  build: {
+    target: 'es2015',
   },
 })

@@ -8,22 +8,11 @@
   "bugs": "https://github.com/kazura233/react-monorepo-project-template/issues",
   "author": "kazura233",
   "license": "MIT",
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": []
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "clean:sdk": "pnpm -r --filter=./packages/sdk* run clean",
     "build:sdk": "pnpm -r --filter=./packages/sdk* run build"
-  },
-  "peerDependencies": {},
-  "dependencies": {},
-  "devDependencies": {
-    "cross-env": "^7.0.3",
-    "eslint": "^8.18.0",
-    "eslint-config-react-app": "^7.0.1",
-    "typescript": "^4.7.4"
   }
 }
