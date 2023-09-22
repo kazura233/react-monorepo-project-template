@@ -25,21 +25,21 @@
     "build": "pnpm clean & rollup --config rollup.config.js"
   },
   "peerDependencies": {
-    "@reduxjs/toolkit": "^1.8.3",
+    "@reduxjs/toolkit": "^1.9.5",
     "@types/redux-logger": "^3.0.9",
-    "immer": "^9.0.7",
-    "redux": "^4.1.2",
+    "immer": "^10.0.2",
+    "redux": "^4.2.1",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.4.1"
+    "redux-thunk": "^2.4.2"
   },
   "dependencies": {
     "@babel/runtime": "^7.22.11",
-    "@reduxjs/toolkit": "^1.8.3",
+    "@reduxjs/toolkit": "^1.9.5",
     "@types/redux-logger": "^3.0.9",
-    "immer": "^9.0.7",
-    "redux": "^4.1.2",
+    "immer": "^10.0.2",
+    "redux": "^4.2.1",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.4.1"
+    "redux-thunk": "^2.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.22.11",
