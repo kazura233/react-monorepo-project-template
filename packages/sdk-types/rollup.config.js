@@ -3,25 +3,15 @@ import resolve from '@rollup/plugin-node-resolve'
 import typescript from 'rollup-plugin-typescript2'
 import babel from '@rollup/plugin-babel'
 import commonjs from '@rollup/plugin-commonjs'
-
-import pkg from './package.json'
 import { defineConfig } from 'rollup'
 
+import pkg from './package.json' assert { type: 'json' }
+
 const extensions = ['.ts']
+
 const noDeclarationFiles = { compilerOptions: { declaration: false } }
 
-const babelRuntimeVersion = pkg.dependencies['@babel/runtime'].replace(
-  /^[^0-9]*/,
-  ''
-)
-
-const makeExternalPredicate = (externalArr) => {
-  if (externalArr.length === 0) {
-    return () => false
-  }
-  const pattern = new RegExp(`^(${externalArr.join('|')})($|/)`)
-  return (id) => pattern.test(id)
-}
+const babelRuntimeVersion = pkg.dependencies['@babel/runtime'].replace(/^[^0-9]*/, '')
 
 export default defineConfig([
   // CommonJS
@@ -31,12 +21,9 @@ export default defineConfig([
       file: pkg.main,
       format: 'cjs',
       indent: false,
-      exports: 'auto',
+      exports: 'named',
     },
-    external: makeExternalPredicate([
-      ...Object.keys(pkg.dependencies || {}),
-      ...Object.keys(pkg.peerDependencies || {}),
-    ]),
+    external: [...Object.keys(pkg.dependencies), ...Object.keys(pkg.peerDependencies)],
     plugins: [
       json(),
       resolve({
@@ -45,9 +32,7 @@ export default defineConfig([
       typescript({ useTsconfigDeclarationDir: true }),
       babel({
         extensions,
-        plugins: [
-          ['@babel/plugin-transform-runtime', { version: babelRuntimeVersion }],
-        ],
+        plugins: [['@babel/plugin-transform-runtime', { version: babelRuntimeVersion }]],
         babelHelpers: 'runtime',
       }),
       commonjs(),
@@ -61,10 +46,7 @@ export default defineConfig([
       format: 'es',
       indent: false,
     },
-    external: makeExternalPredicate([
-      ...Object.keys(pkg.dependencies || {}),
-      ...Object.keys(pkg.peerDependencies || {}),
-    ]),
+    external: [...Object.keys(pkg.dependencies), ...Object.keys(pkg.peerDependencies)],
     plugins: [
       json(),
       resolve({
@@ -74,10 +56,7 @@ export default defineConfig([
       babel({
         extensions,
         plugins: [
-          [
-            '@babel/plugin-transform-runtime',
-            { version: babelRuntimeVersion, useESModules: true },
-          ],
+          ['@babel/plugin-transform-runtime', { version: babelRuntimeVersion, useESModules: true }],
         ],
         babelHelpers: 'runtime',
       }),
