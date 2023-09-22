@@ -1,13 +1,5 @@
 {
-  "name": "react-monorepo-project-template",
-  "version": "0.1.0",
-  "description": "vite / react / typescript / pnpm",
   "private": true,
-  "homepage": "https://github.com/kazura233/react-monorepo-project-template",
-  "repository": "https://github.com/kazura233/react-monorepo-project-template.git",
-  "bugs": "https://github.com/kazura233/react-monorepo-project-template/issues",
-  "author": "kazura233",
-  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],

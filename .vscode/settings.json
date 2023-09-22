@@ -29,6 +29,14 @@
   "prettier.semi": false,
   "prettier.tabWidth": 2,
   "prettier.singleQuote": true,
-  "eslint.packageManager": "pnpm",
-  "npm.packageManager": "pnpm"
+  "npm.packageManager": "pnpm",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "/packages/*/public": true,
+    "/packages/*/dist": true,
+    "/submodules": true,
+    "pnpm-lock.yaml": true
+  }
 }
