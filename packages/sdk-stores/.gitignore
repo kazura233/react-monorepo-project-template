@@ -1,10 +1,9 @@
 /node_modules
-/dist
-/es
-/lib
-/types
-
-#
+package-lock.json
 yarn.lock
-yarn-error.log
 pnpm-lock.yaml
+/dist
+/lib
+/es
+/iief
+/types
