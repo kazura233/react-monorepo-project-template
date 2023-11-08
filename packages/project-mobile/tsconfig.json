@@ -17,7 +17,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     /* Linting */
-    "strict": true
+    "strict": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src"
