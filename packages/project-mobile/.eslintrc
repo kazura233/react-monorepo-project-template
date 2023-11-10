@@ -1,7 +1,7 @@
 {
   "root": true,
   "extends": [
-    "../eslint-config-react-app/index.js"
+    "@kazura/eslint-config-react-app"
   ],
   "rules": {
     "@typescript-eslint/no-unused-vars": "off"
