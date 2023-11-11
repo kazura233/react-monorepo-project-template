@@ -1,7 +1,7 @@
-import { Global, css } from '@emotion/react'
+import { injectGlobal } from '@emotion/css'
 import 'antd/dist/reset.css'
 
-const styles = css`
+injectGlobal`
   * {
     margin: 0;
     padding: 0;
@@ -24,5 +24,3 @@ const styles = css`
     }
   }
 `
-
-export const GlobalStyle = () => <Global styles={styles} />
