@@ -1,4 +1,4 @@
-import { HttpRequestConfig } from '@react-monorepo-project-template/sdk-utils'
+import type { HttpRequestConfig } from '@react-monorepo-project-template/sdk-utils'
 import { request } from './helpers'
 import * as demo from './demo'
 
