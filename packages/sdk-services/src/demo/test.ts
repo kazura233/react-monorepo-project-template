@@ -5,7 +5,7 @@ interface IRequestResource {}
 interface IResponseResource {}
 
 export const test = (data: IRequestResource) =>
-  request.request<IRequestResource, IResponseResource>({
+  request.request<IResponseResource>({
     url: '/demo/test',
     method: 'POST',
     data,
