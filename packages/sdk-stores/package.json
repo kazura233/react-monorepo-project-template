@@ -23,7 +23,9 @@
     "dev": "rollup --config rollup.config.js --watch",
     "build": "pnpm clean & rollup --config rollup.config.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@kazura/react-mobx": "^0.0.5"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-json": "^6.0.0",

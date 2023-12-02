@@ -213,6 +213,10 @@ importers:
         version: 5.3.2
 
   packages/sdk-stores:
+    dependencies:
+      '@kazura/react-mobx':
+        specifier: ^0.0.5
+        version: 0.0.5(@types/react@18.2.40)(mobx@6.12.0)(react@18.2.0)
     devDependencies:
       '@rollup/plugin-commonjs':
         specifier: ^25.0.4
@@ -2318,6 +2322,19 @@ packages:
       - supports-color
       - typescript
     dev: true
+
+  /@kazura/react-mobx@0.0.5(@types/react@18.2.40)(mobx@6.12.0)(react@18.2.0):
+    resolution: {integrity: sha512-pMLWQSzcqiVrdVqza8xtAyJQigYRir91mYl0GG5f8nml6LlnBDzCV/Bp1p/DDpaQCZb2Sm9uvMZytypVfVYrLA==}
+    engines: {node: '>=20.5.0'}
+    peerDependencies:
+      '@types/react': '>=18.2'
+      mobx: '>=6.12'
+      react: '>=18.2'
+    dependencies:
+      '@types/react': 18.2.40
+      mobx: 6.12.0
+      react: 18.2.0
+    dev: false
 
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
     resolution: {integrity: sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==}
@@ -4707,6 +4724,10 @@ packages:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     dev: true
+
+  /mobx@6.12.0:
+    resolution: {integrity: sha512-Mn6CN6meXEnMa0a5u6a5+RKrqRedHBhZGd15AWLk9O6uFY4KYHzImdt8JI8WODo1bjTSRnwXhJox+FCUZhCKCQ==}
+    dev: false
 
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
