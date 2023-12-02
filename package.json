@@ -3,6 +3,7 @@
   "packageManager": "pnpm@8.8.0",
   "scripts": {
     "clean:sdk": "pnpm -r --filter=./packages/sdk* run clean",
-    "build:sdk": "pnpm -r --filter=./packages/sdk* run build"
+    "build:sdk": "pnpm -r --filter=./packages/sdk* run build",
+    "project:build:dev": "pnpm build:sdk && pnpm -r --filter=./packages/project* run build:dev"
   }
 }
