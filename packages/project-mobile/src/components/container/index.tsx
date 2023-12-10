@@ -17,12 +17,13 @@ const StyledContainer = styled.section`
 export interface IContainerProps {
   direction: direction
   style?: React.CSSProperties
+  className?: string
 }
 
 export const Container: React.FC<PropsWithChildren<IContainerProps>> = (props) => {
-  const { direction, children, style } = props
+  const { direction, children, style, className } = props
   return (
-    <StyledContainer isColumn={direction === 'vertical'} style={style}>
+    <StyledContainer isColumn={direction === 'vertical'} style={style} className={className}>
       {children}
     </StyledContainer>
   )
