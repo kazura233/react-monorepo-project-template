@@ -9,11 +9,16 @@ const StyledHeader = styled.header`
 export interface IHeaderProps {
   height?: string
   style?: React.CSSProperties
+  className?: string
 }
 
 export const Header: React.FC<PropsWithChildren<IHeaderProps>> = (props) => {
-  const { height = '60px', children, style } = props
-  return <StyledHeader style={{ height, ...style }}>{children}</StyledHeader>
+  const { height = '60px', children, style, className } = props
+  return (
+    <StyledHeader style={{ height, ...style }} className={className}>
+      {children}
+    </StyledHeader>
+  )
 }
 
 export default Header
