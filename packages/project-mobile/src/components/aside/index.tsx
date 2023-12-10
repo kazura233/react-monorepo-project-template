@@ -10,11 +10,16 @@ const StyledAside = styled.aside`
 export interface IAsideProps {
   width?: string
   style?: React.CSSProperties
+  className?: string
 }
 
 export const Aside: React.FC<PropsWithChildren<IAsideProps>> = (props) => {
-  const { width = '300px', children, style } = props
-  return <StyledAside style={{ width, ...style }}>{children}</StyledAside>
+  const { width = '300px', children, style, className } = props
+  return (
+    <StyledAside style={{ width, ...style }} className={className}>
+      {children}
+    </StyledAside>
+  )
 }
 
 export default Aside
