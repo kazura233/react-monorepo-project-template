@@ -5,7 +5,6 @@
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
-  "packageManager": "pnpm",
   "rangeStrategy": "bump",
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
