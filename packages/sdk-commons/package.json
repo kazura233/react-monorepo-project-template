@@ -32,7 +32,7 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@types/node": "^20.10.4",
     "rimraf": "^5.0.5",
-    "rollup": "^3.29.4",
+    "rollup": "^4.9.0",
     "rollup-plugin-typescript2": "^0.36.0",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
