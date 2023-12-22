@@ -2,9 +2,9 @@
   "name": "@react-monorepo-project-template/sdk-stores",
   "version": "0.1.0",
   "private": true,
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "types": "types/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "build": "pnpm clean & komekko"
