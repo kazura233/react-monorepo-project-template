@@ -18,15 +18,15 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "ahooks": "^3.7.8",
-    "antd": "^5.12.2",
+    "antd": "^5.12.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router": "^6.21.0",
-    "react-router-dom": "^6.21.0"
+    "react-router": "^6.21.1",
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@kazura/eslint-config-react-app": "^7.0.1",
-    "@types/node": "^20.10.4",
+    "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
