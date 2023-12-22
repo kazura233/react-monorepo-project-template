@@ -2,40 +2,18 @@
   "name": "@react-monorepo-project-template/sdk-utils",
   "version": "0.1.0",
   "private": true,
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "type": "module",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": [
-    "dist",
-    "lib",
-    "es",
-    "src",
-    "types",
-    "iife"
-  ],
   "scripts": {
-    "clean": "rimraf dist lib es types iife",
-    "dev": "rollup --config rollup.config.js --watch",
-    "build": "pnpm clean & rollup --config rollup.config.js"
+    "clean": "rimraf dist",
+    "build": "pnpm clean & komekko"
   },
   "dependencies": {
     "axios": "^1.6.2"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-replace": "^5.0.5",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@types/node": "^20.10.4",
-    "rimraf": "^5.0.5",
-    "rollup": "^4.9.0",
-    "rollup-plugin-typescript2": "^0.36.0",
+    "komekko": "workspace:*",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
   },
