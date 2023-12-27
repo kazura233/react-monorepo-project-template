@@ -167,8 +167,8 @@ importers:
   packages/sdk-stores:
     dependencies:
       '@kazura/react-mobx':
-        specifier: ^0.0.5
-        version: 0.0.5(@types/react@18.2.45)(mobx@6.12.0)(react@18.2.0)
+        specifier: ^0.0.6
+        version: 0.0.6(@types/react@18.2.45)(mobx@6.12.0)(react@18.2.0)
     devDependencies:
       komekko:
         specifier: ^0.1.3
@@ -2401,13 +2401,13 @@ packages:
       - typescript
     dev: true
 
-  /@kazura/react-mobx@0.0.5(@types/react@18.2.45)(mobx@6.12.0)(react@18.2.0):
-    resolution: {integrity: sha512-pMLWQSzcqiVrdVqza8xtAyJQigYRir91mYl0GG5f8nml6LlnBDzCV/Bp1p/DDpaQCZb2Sm9uvMZytypVfVYrLA==}
-    engines: {node: '>=20.5.0'}
+  /@kazura/react-mobx@0.0.6(@types/react@18.2.45)(mobx@6.12.0)(react@18.2.0):
+    resolution: {integrity: sha512-QjCY9fQ3UfLvLOq4iOuwbNYeQ5ktbGim7HswJmWh8n81ujL2NhZd68S0k8pHf1hh+u0ZejL3EDWr7uVmpfQe6w==}
+    engines: {node: '>=20.10.0'}
     peerDependencies:
-      '@types/react': '>=18.2'
-      mobx: '>=6.12'
-      react: '>=18.2'
+      '@types/react': '>=18.2.45'
+      mobx: '>=6.12.0'
+      react: '>=18.2.0'
     dependencies:
       '@types/react': 18.2.45
       mobx: 6.12.0
