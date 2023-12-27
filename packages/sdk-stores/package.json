@@ -10,7 +10,7 @@
     "build": "pnpm clean & komekko"
   },
   "dependencies": {
-    "@kazura/react-mobx": "^0.0.5"
+    "@kazura/react-mobx": "^0.0.6"
   },
   "devDependencies": {
     "komekko": "^0.1.3",
