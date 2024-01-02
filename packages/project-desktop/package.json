@@ -18,7 +18,7 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "ahooks": "^3.7.8",
-    "antd": "^5.12.6",
+    "antd": "^5.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.21.1",
