@@ -21,7 +21,7 @@ export class Request {
     this.instance = this.create(config)
   }
 
-  public create(config?: HttpRequestConfig) {
+  public create(config?: HttpRequestConfig): HttpInstance {
     const instance = http.create(config)
     this.init(instance)
     return instance
