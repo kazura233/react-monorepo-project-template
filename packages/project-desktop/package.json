@@ -18,7 +18,7 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "ahooks": "^3.7.10",
-    "antd": "^5.13.3",
+    "antd": "^5.14.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.22.0",
@@ -27,7 +27,7 @@
   "devDependencies": {
     "@kazura/eslint-config-react-app": "^7.0.1",
     "@types/node": "^20.11.16",
-    "@types/react": "^18.2.52",
+    "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
     "cross-env": "^7.0.3",
