@@ -33,7 +33,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "typescript": "^5.3.3",
-    "vite": "^4.5.2",
+    "vite": "^5.2.6",
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
