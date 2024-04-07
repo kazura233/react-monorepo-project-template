@@ -13,30 +13,30 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.3.0",
+    "@ant-design/icons": "^5.3.6",
     "@emotion/css": "^11.11.2",
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
-    "ahooks": "^3.7.10",
-    "antd": "^5.14.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "ahooks": "^3.7.11",
+    "antd": "^5.16.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router": "^6.22.1",
-    "react-router-dom": "^6.22.1"
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@kazura/eslint-config-react-app": "^7.0.1",
-    "@types/node": "^20.11.20",
-    "@types/react": "^18.2.58",
-    "@types/react-dom": "^18.2.19",
+    "@types/node": "^20.12.5",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
     "@vitejs/plugin-react": "^4.2.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
-    "typescript": "^5.3.3",
-    "vite": "^4.5.2",
+    "typescript": "^5.4.4",
+    "vite": "^4.5.3",
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
-    "node": ">=20.11.1"
+    "node": ">=20.12.1"
   }
 }
