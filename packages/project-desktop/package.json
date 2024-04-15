@@ -18,7 +18,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "ahooks": "^3.7.11",
-    "antd": "^5.16.1",
+    "antd": "^5.16.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.22.3",
@@ -26,17 +26,17 @@
   },
   "devDependencies": {
     "@kazura/eslint-config-react-app": "^7.0.1",
-    "@types/node": "^20.12.5",
-    "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.24",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.78",
+    "@types/react-dom": "^18.2.25",
     "@vitejs/plugin-react": "^4.2.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
-    "typescript": "^5.4.4",
+    "typescript": "^5.4.5",
     "vite": "^4.5.3",
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
-    "node": ">=20.12.1"
+    "node": ">=20.12.2"
   }
 }
