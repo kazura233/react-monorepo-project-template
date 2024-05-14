@@ -17,18 +17,18 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "ahooks": "^3.7.11",
-    "antd-mobile": "^5.35.0",
+    "antd-mobile": "^5.36.0",
     "antd-mobile-icons": "^0.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router": "^6.22.3",
-    "react-router-dom": "^6.22.3"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^6.23.1",
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
     "@kazura/eslint-config-react-app": "^7.0.1",
-    "@types/node": "^20.12.7",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.2.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
@@ -37,6 +37,6 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
-    "node": ">=20.12.2"
+    "node": ">=20.13.1"
   }
 }
