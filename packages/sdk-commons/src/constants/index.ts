@@ -1,1 +1,1 @@
-export const SDK_COMMONS_CONSTANT_DEMO = 'demo'
+export const SERVER_BASE_API = 'VITE_SERVER_BASE_API'

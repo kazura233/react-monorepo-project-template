@@ -20,5 +20,3 @@ export const Header: React.FC<PropsWithChildren<IHeaderProps>> = (props) => {
     </StyledHeader>
   )
 }
-
-export default Header

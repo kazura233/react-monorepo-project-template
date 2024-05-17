@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react'
 import eslint from 'vite-plugin-eslint'
 import { fileURLToPath, URL } from 'node:url'
 
-const VITE_ENV = process.env.VITE_ENV
+const NODE_ENV = process.env.NODE_ENV
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => {
-  console.log('VITE_ENV：', VITE_ENV)
+  console.log('NODE_ENV', NODE_ENV)
   console.log('command：', command)
   console.log('mode：', mode)
 

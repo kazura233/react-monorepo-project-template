@@ -28,5 +28,3 @@ export const Container: React.FC<PropsWithChildren<IContainerProps>> = (props) =
     </StyledContainer>
   )
 }
-
-export default Container

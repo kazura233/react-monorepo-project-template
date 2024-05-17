@@ -21,5 +21,3 @@ export const Aside: React.FC<PropsWithChildren<IAsideProps>> = (props) => {
     </StyledAside>
   )
 }
-
-export default Aside

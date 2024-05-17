@@ -15,11 +15,4 @@ injectGlobal`
     background-color: #fff;
   }
 
-  .ant-layout {
-    min-height: 100vh;
-    .ant-layout-header,
-    .ant-layout-footer {
-      padding: 0;
-    }
-  }
 `

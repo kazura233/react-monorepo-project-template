@@ -20,5 +20,3 @@ export const Footer: React.FC<PropsWithChildren<IFooterProps>> = (props) => {
     </StyledFooter>
   )
 }
-
-export default Footer

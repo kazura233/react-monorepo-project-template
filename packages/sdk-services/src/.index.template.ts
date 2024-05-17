@@ -3,10 +3,10 @@ import { httpClient } from './helpers'
 
 export type { ResponsePacket } from './helpers'
 
-import { demo$test } from './services/demo$test'
+//import//
 
 export const services = {
   mergeConfig: (config: HttpRequestConfig) => httpClient.mergeConfig(config),
   exportHttpInstance: () => httpClient.exportHttpInstance(),
-  demo$test,
+  //export//
 }

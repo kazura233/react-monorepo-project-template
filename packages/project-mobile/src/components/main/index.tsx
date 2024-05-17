@@ -23,5 +23,3 @@ export const Main: React.FC<PropsWithChildren<IMainProps>> = (props) => {
     </StyledMain>
   )
 }
-
-export default Main

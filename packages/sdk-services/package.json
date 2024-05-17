@@ -7,10 +7,19 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "pnpm clean & komekko"
+    "build": "pnpm clean & komekko",
+    "generate:index": "tsx src/cli/generate-index.ts",
+    "g:index": "tsx src/cli/generate-index.ts"
   },
   "dependencies": {
-    "@react-monorepo-project-template/sdk-utils": "workspace:*"
+    "@kazura/http-client": "^0.0.1",
+    "@kazura/web-crypto": "^3.1.0",
+    "@kazura/web-util": "^1.2.4",
+    "@kazura/vite-config": "^0.0.2",
+    "@react-monorepo-project-template/sdk-commons": "workspace:*",
+    "@react-monorepo-project-template/sdk-utils": "workspace:*",
+    "axios": "^1.6.8",
+    "tsx": "^4.7.2"
   },
   "devDependencies": {
     "komekko": "^0.1.3",
