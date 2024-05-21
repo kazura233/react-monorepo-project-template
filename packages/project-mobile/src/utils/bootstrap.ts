@@ -1,4 +1,6 @@
-import '../styles/global'
+import '~/styles/global'
+import '~/config'
+
 import { services } from '@react-monorepo-project-template/sdk-services'
 
 services.exportHttpInstance().interceptors.request.use((request) => {
