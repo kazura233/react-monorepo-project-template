@@ -14,7 +14,7 @@
   "dependencies": {
     "@kazura/http-client": "^0.0.1",
     "@kazura/web-crypto": "^3.1.1",
-    "@kazura/web-util": "^1.2.4",
+    "@kazura/web-util": "^2.0.0",
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
