@@ -19,7 +19,7 @@
     "@kazura/react-mobx": "^0.0.8",
     "@kazura/react-toolkit": "^0.1.1",
     "@kazura/react-hooks": "^0.1.0",
-    "@kazura/web-util": "^1.2.4",
+    "@kazura/web-util": "^2.0.0",
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-services": "workspace:*",

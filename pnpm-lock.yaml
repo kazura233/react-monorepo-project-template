@@ -35,8 +35,8 @@ importers:
         specifier: ^0.0.2
         version: 0.0.2
       '@kazura/web-util':
-        specifier: ^1.2.4
-        version: 1.2.4
+        specifier: ^2.0.0
+        version: 2.0.0
       '@react-monorepo-project-template/sdk-commons':
         specifier: workspace:*
         version: link:../sdk-commons
@@ -129,8 +129,8 @@ importers:
         specifier: ^0.0.2
         version: 0.0.2
       '@kazura/web-util':
-        specifier: ^1.2.4
-        version: 1.2.4
+        specifier: ^2.0.0
+        version: 2.0.0
       '@react-monorepo-project-template/sdk-commons':
         specifier: workspace:*
         version: link:../sdk-commons
@@ -226,8 +226,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1
       '@kazura/web-util':
-        specifier: ^1.2.4
-        version: 1.2.4
+        specifier: ^2.0.0
+        version: 2.0.0
       '@react-monorepo-project-template/sdk-commons':
         specifier: workspace:*
         version: link:../sdk-commons
@@ -1666,6 +1666,10 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
+  '@kazura/common@0.0.1':
+    resolution: {integrity: sha512-cwHicbE1lr4bV+0o3f+wWbAK1QXDet7ZKM0L/c4A0rEk1gTf2iUd2obszfP8HVRHk6e/HTCmJBXwtaDRuYIXHQ==}
+    engines: {node: '>=20.13.1'}
+
   '@kazura/eslint-config-react-app@7.0.1-patch.1':
     resolution: {integrity: sha512-JOJzWUq1JTYj402wN5H820UlXcOnzo5qweNeMAgwp4AbzqhqeWHHx+euOocLofjBedy1ex73TJDx1GtSmuo0ow==}
     engines: {node: '>=20.13.1'}
@@ -1709,6 +1713,10 @@ packages:
 
   '@kazura/web-util@1.2.4':
     resolution: {integrity: sha512-E+kPKETHh3C07bLAllo10LARTDbBVVVZc8YPeN80Wjmwj9PKiaIuMeCDPVWZocrBWahwWlWvsG8pQ4G6fglX0Q==}
+    engines: {node: '>=20.13.1'}
+
+  '@kazura/web-util@2.0.0':
+    resolution: {integrity: sha512-aWPK7Vkd337HN6/ytbuNR6TiQU4UejW4zQmJ0oSBISX536i5oaHBesGngfU+y3mCbNFXtn6TysYAJQt6Dc+N0Q==}
     engines: {node: '>=20.13.1'}
 
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
@@ -5369,6 +5377,8 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
+  '@kazura/common@0.0.1': {}
+
   '@kazura/eslint-config-react-app@7.0.1-patch.1(@babel/plugin-syntax-flow@7.23.3(@babel/core@7.23.5))(@babel/plugin-transform-react-jsx@7.23.4(@babel/core@7.23.5))(eslint@8.57.0)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.24.5
@@ -5426,6 +5436,16 @@ snapshots:
 
   '@kazura/web-util@1.2.4':
     dependencies:
+      '@types/file-saver': 2.0.7
+      '@types/uuid': 9.0.8
+      copy-to-clipboard: 3.3.3
+      dayjs: 1.11.11
+      file-saver: 2.0.5
+      uuid: 9.0.1
+
+  '@kazura/web-util@2.0.0':
+    dependencies:
+      '@kazura/common': 0.0.1
       '@types/file-saver': 2.0.7
       '@types/uuid': 9.0.8
       copy-to-clipboard: 3.3.3
