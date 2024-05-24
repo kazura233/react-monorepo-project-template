@@ -12,14 +12,14 @@
     "g:index": "tsx src/cli/generate-index.ts"
   },
   "dependencies": {
-    "@kazura/http-client": "^0.0.1",
+    "@kazura/http-client": "^0.0.2",
     "@kazura/web-crypto": "^3.1.1",
     "@kazura/web-util": "^2.0.0",
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
-    "axios": "^1.7.0",
-    "tsx": "^4.10.5"
+    "axios": "^1.7.2",
+    "tsx": "^4.11.0"
   },
   "devDependencies": {
     "komekko": "^0.1.3",
