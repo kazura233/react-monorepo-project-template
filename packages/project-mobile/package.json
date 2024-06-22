@@ -29,9 +29,9 @@
     "@react-monorepo-project-template/sdk-types": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
     "ahooks": "^3.8.0",
-    "antd-mobile": "^5.36.0",
+    "antd-mobile": "^5.36.1",
     "antd-mobile-icons": "^0.3.0",
-    "mobx": "^6.12.3",
+    "mobx": "^6.12.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router": "^6.23.1",
@@ -39,17 +39,17 @@
   },
   "devDependencies": {
     "@kazura/eslint-config-react-app": "7.0.1-patch.1",
-    "@types/node": "^20.12.12",
+    "@types/node": "^20.14.8",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
-    "typescript": "^5.4.5",
+    "typescript": "^5.5.2",
     "vite": "^4.5.3",
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
-    "node": ">=20.13.1"
+    "node": ">=20.15.0"
   }
 }
