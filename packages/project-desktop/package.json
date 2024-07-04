@@ -17,7 +17,7 @@
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-    "@kazura/react-mobx": "^0.0.8",
+    "@kazura/react-mobx": "^1.0.1",
     "@kazura/common": "^0.0.1",
     "@kazura/react-toolkit": "^0.1.1",
     "@kazura/validator": "^0.0.1",
