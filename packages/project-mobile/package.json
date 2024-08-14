@@ -13,43 +13,43 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/css": "^11.11.2",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
+    "@emotion/css": "^11.13.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
     "@kazura/react-mobx": "^1.0.1",
     "@kazura/common": "^0.0.1",
     "@kazura/react-toolkit": "^0.1.1",
     "@kazura/validator": "^0.0.1",
     "@kazura/react-hooks": "^0.1.0",
-    "@kazura/web-util": "^2.0.0",
+    "@kazura/web-util": "^2.1.0",
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-services": "workspace:*",
     "@react-monorepo-project-template/sdk-stores": "workspace:*",
     "@react-monorepo-project-template/sdk-types": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
-    "ahooks": "^3.8.0",
-    "antd-mobile": "^5.36.1",
+    "ahooks": "^3.8.1",
+    "antd-mobile": "^5.37.1",
     "antd-mobile-icons": "^0.3.0",
-    "mobx": "^6.12.4",
+    "mobx": "^6.13.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router": "^6.23.1",
-    "react-router-dom": "^6.23.1"
+    "react-router": "^6.26.0",
+    "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
     "@kazura/eslint-config-react-app": "7.0.1-patch.1",
-    "@types/node": "^20.14.8",
+    "@types/node": "^20.14.15",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
-    "typescript": "^5.5.2",
+    "typescript": "^5.5.4",
     "vite": "^4.5.3",
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
-    "node": ">=20.15.0"
+    "node": ">=20.16.0"
   }
 }
