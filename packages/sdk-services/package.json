@@ -18,12 +18,12 @@
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
-    "axios": "^1.7.4",
-    "tsx": "^4.17.0"
+    "axios": "^1.7.5",
+    "tsx": "^4.19.0"
   },
   "devDependencies": {
-    "komekko": "^0.1.4",
-    "tslib": "^2.6.3",
+    "komekko": "^0.2.0",
+    "tslib": "^2.7.0",
     "typescript": "^5.5.4"
   },
   "engines": {
