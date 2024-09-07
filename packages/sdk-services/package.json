@@ -18,7 +18,7 @@
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
-    "axios": "^1.7.5",
+    "axios": "^1.7.7",
     "tsx": "^4.19.0"
   },
   "devDependencies": {
