@@ -44,7 +44,7 @@
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
     "cross-env": "^7.0.3",
-    "eslint": "^8.57.1",
+    "eslint": "^9.20.0",
     "typescript": "^5.7.3",
     "vite": "^5.4.14",
     "vite-plugin-eslint": "^1.8.1"
