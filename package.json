@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@10.2.1",
+  "packageManager": "pnpm@10.8.0",
   "scripts": {
     "clean:sdk": "pnpm -r --filter=./packages/sdk* run clean",
     "build:sdk": "pnpm -r --filter=./packages/sdk* run build",

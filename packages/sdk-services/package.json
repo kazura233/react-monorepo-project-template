@@ -14,19 +14,19 @@
   "dependencies": {
     "@kazura/http-client": "^0.0.2",
     "@kazura/web-crypto": "^3.1.1",
-    "@kazura/web-util": "^2.1.0",
+    "@kazura/web-util": "^2.2.0",
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
-    "axios": "^1.7.9",
-    "tsx": "^4.19.2"
+    "axios": "^1.8.4",
+    "tsx": "^4.19.3"
   },
   "devDependencies": {
     "komekko": "^0.2.0",
     "tslib": "^2.8.1",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.3"
   },
   "engines": {
-    "node": ">=22.13.1"
+    "node": ">=22.14.0"
   }
 }

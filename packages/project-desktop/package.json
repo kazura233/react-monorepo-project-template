@@ -22,7 +22,7 @@
     "@kazura/react-toolkit": "^0.1.1",
     "@kazura/validator": "^0.0.1",
     "@kazura/react-hooks": "^0.1.0",
-    "@kazura/web-util": "^2.1.0",
+    "@kazura/web-util": "^2.2.0",
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-services": "workspace:*",
@@ -30,26 +30,26 @@
     "@react-monorepo-project-template/sdk-types": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
     "ahooks": "^3.8.4",
-    "antd": "^5.23.4",
-    "mobx": "^6.13.6",
+    "antd": "^5.24.6",
+    "mobx": "^6.13.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router": "^7.1.5",
-    "react-router-dom": "^7.1.5"
+    "react-router": "^7.5.0",
+    "react-router-dom": "^7.5.0"
   },
   "devDependencies": {
     "@kazura/eslint-config-react-app": "7.0.1-patch.1",
-    "@types/node": "^22.13.1",
-    "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5",
+    "@types/node": "^22.14.0",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.6",
     "@vitejs/plugin-react": "^4.3.4",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.1",
-    "typescript": "^5.7.3",
-    "vite": "^5.4.14",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.18",
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
-    "node": ">=22.13.1"
+    "node": ">=22.14.0"
   }
 }
