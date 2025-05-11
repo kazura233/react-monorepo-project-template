@@ -32,6 +32,11 @@ export default defineConfig(({ command, mode }) => {
     build: {
       target: 'es2015',
       cssTarget: 'chrome80',
+      minify: NODE_ENV !== 'development',
+      sourcemap: NODE_ENV === 'development',
+    },
+    esbuild: {
+      pure: NODE_ENV === 'development' ? undefined : ['console.log'],
     },
   }
 })

@@ -2,10 +2,15 @@
   "private": true,
   "packageManager": "pnpm@10.10.0",
   "scripts": {
+    "use-proxy-install": "cross-env https_proxy=http://127.0.0.1:1087 http_proxy=http://127.0.0.1:1087 all_proxy=socks5://127.0.0.1:1086 pnpm install",
+    "upi": "pnpm run use-proxy-install",
     "clean:sdk": "pnpm -r --filter=./packages/sdk* run clean",
     "build:sdk": "pnpm -r --filter=./packages/sdk* run build",
     "project:build:development": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:development",
     "project:build:testing": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:testing",
     "project:build:production": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:production"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

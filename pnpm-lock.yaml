@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      cross-env:
+        specifier: ^7.0.3
+        version: 7.0.3
 
   packages/project-desktop:
     dependencies:
@@ -226,6 +230,40 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
+  packages/sdk-hooks:
+    dependencies:
+      '@kazura/web-util':
+        specifier: ^2.4.2
+        version: 2.4.2
+      '@react-monorepo-project-template/sdk-commons':
+        specifier: workspace:*
+        version: link:../sdk-commons
+      '@react-monorepo-project-template/sdk-types':
+        specifier: workspace:*
+        version: link:../sdk-types
+      '@react-monorepo-project-template/sdk-utils':
+        specifier: workspace:*
+        version: link:../sdk-utils
+      '@types/react':
+        specifier: ^18.3.21
+        version: 18.3.21
+      react:
+        specifier: ^18.3.1
+        version: 18.3.1
+      react-router:
+        specifier: ^7.6.0
+        version: 7.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    devDependencies:
+      komekko:
+        specifier: ^0.2.0
+        version: 0.2.0(typescript@5.8.3)
+      tslib:
+        specifier: ^2.8.1
+        version: 2.8.1
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
   packages/sdk-services:
     dependencies:
       '@kazura/http-client':
@@ -267,7 +305,7 @@ importers:
     dependencies:
       '@kazura/react-mobx':
         specifier: ^1.0.1
-        version: 1.0.1(@types/react@18.3.20)(mobx@6.13.7)(react@18.3.1)
+        version: 1.0.1(@types/react@18.3.21)(mobx@6.13.7)(react@18.3.1)
       mobx:
         specifier: 6.13.7
         version: 6.13.7
@@ -2029,6 +2067,9 @@ packages:
   '@types/react@18.3.20':
     resolution: {integrity: sha512-IPaCZN7PShZK/3t6Q87pfTkRm6oLTd4vztyoj+cbHUF1g3FfVb2tFIL79uCRKEfv16AhqDMBywP2VW3KIZUvcg==}
 
+  '@types/react@18.3.21':
+    resolution: {integrity: sha512-gXLBtmlcRJeT09/sI4PxVwyrku6SaNUj/6cMubjE6T6XdY1fDmBL7r0nX0jbSZPU/Xr0KuwLLZh6aOYY5d91Xw==}
+
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
 
@@ -3613,6 +3654,16 @@ packages:
 
   react-router@7.5.3:
     resolution: {integrity: sha512-3iUDM4/fZCQ89SXlDa+Ph3MevBrozBAI655OAfWQlTm9nBR0IKlrmNwFow5lPHttbwvITZfkeeeZFP6zt3F7pw==}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+
+  react-router@7.6.0:
+    resolution: {integrity: sha512-GGufuHIVCJDbnIAXP3P9Sxzq3UUsddG3rrI3ut1q6m0FI6vxVBF3JoPQ38+W/blslLH4a5Yutp8drkEpXoddGQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -5549,6 +5600,12 @@ snapshots:
       mobx: 6.13.7
       react: 18.3.1
 
+  '@kazura/react-mobx@1.0.1(@types/react@18.3.21)(mobx@6.13.7)(react@18.3.1)':
+    dependencies:
+      '@types/react': 18.3.21
+      mobx: 6.13.7
+      react: 18.3.1
+
   '@kazura/react-toolkit@0.1.1(@types/react@18.3.20)(react@18.3.1)':
     dependencies:
       '@types/react': 18.3.20
@@ -5859,6 +5916,11 @@ snapshots:
       '@types/react': 18.3.20
 
   '@types/react@18.3.20':
+    dependencies:
+      '@types/prop-types': 15.7.12
+      csstype: 3.1.3
+
+  '@types/react@18.3.21':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -7888,6 +7950,14 @@ snapshots:
       react: 18.3.1
       set-cookie-parser: 2.7.1
       turbo-stream: 2.4.0
+    optionalDependencies:
+      react-dom: 18.3.1(react@18.3.1)
+
+  react-router@7.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      cookie: 1.0.2
+      react: 18.3.1
+      set-cookie-parser: 2.7.1
     optionalDependencies:
       react-dom: 18.3.1(react@18.3.1)
 
