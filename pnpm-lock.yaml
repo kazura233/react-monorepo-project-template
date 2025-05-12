@@ -66,7 +66,7 @@ importers:
         specifier: ^3.8.4
         version: 3.8.4(react@18.3.1)
       antd:
-        specifier: ^5.24.9
+        specifier: ^5.25.1
         version: 5.25.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       mobx:
         specifier: ^6.13.7
@@ -78,20 +78,20 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-router:
-        specifier: ^7.5.3
+        specifier: ^7.6.0
         version: 7.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-router-dom:
-        specifier: ^7.5.3
+        specifier: ^7.6.0
         version: 7.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@kazura/eslint-config-react-app':
         specifier: 7.0.1-patch.1
         version: 7.0.1-patch.1(@babel/plugin-syntax-flow@7.27.1(@babel/core@7.27.1))(@babel/plugin-transform-react-jsx@7.27.1(@babel/core@7.27.1))(eslint@8.57.1)(typescript@5.8.3)
       '@types/node':
-        specifier: ^22.15.3
+        specifier: ^22.15.17
         version: 22.15.17
       '@types/react':
-        specifier: ^18.3.20
+        specifier: ^18.3.21
         version: 18.3.21
       '@types/react-dom':
         specifier: ^18.3.7
@@ -181,20 +181,20 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-router:
-        specifier: ^7.5.3
+        specifier: ^7.6.0
         version: 7.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-router-dom:
-        specifier: ^7.5.3
+        specifier: ^7.6.0
         version: 7.6.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@kazura/eslint-config-react-app':
         specifier: 7.0.1-patch.1
         version: 7.0.1-patch.1(@babel/plugin-syntax-flow@7.27.1(@babel/core@7.27.1))(@babel/plugin-transform-react-jsx@7.27.1(@babel/core@7.27.1))(eslint@8.57.1)(typescript@5.8.3)
       '@types/node':
-        specifier: ^22.15.3
+        specifier: ^22.15.17
         version: 22.15.17
       '@types/react':
-        specifier: ^18.3.20
+        specifier: ^18.3.21
         version: 18.3.21
       '@types/react-dom':
         specifier: ^18.3.7
