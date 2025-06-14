@@ -98,7 +98,7 @@ importers:
         version: 18.3.7(@types/react@18.3.23)
       '@vitejs/plugin-react':
         specifier: ^4.5.2
-        version: 4.5.2(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4))
+        version: 4.5.2(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -110,10 +110,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.3.5
-        version: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4)
+        version: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3)
       vite-plugin-eslint:
         specifier: ^1.8.1
-        version: 1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4))
+        version: 1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3))
 
   packages/project-mobile:
     dependencies:
@@ -201,7 +201,7 @@ importers:
         version: 18.3.7(@types/react@18.3.23)
       '@vitejs/plugin-react':
         specifier: ^4.5.2
-        version: 4.5.2(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4))
+        version: 4.5.2(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -213,10 +213,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.3.5
-        version: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4)
+        version: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3)
       vite-plugin-eslint:
         specifier: ^1.8.1
-        version: 1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4))
+        version: 1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3))
 
   packages/sdk-commons:
     devDependencies:
@@ -291,11 +291,11 @@ importers:
         specifier: workspace:*
         version: link:../sdk-utils
       axios:
-        specifier: ^1.9.0
-        version: 1.9.0
+        specifier: ^1.10.0
+        version: 1.10.0
       tsx:
-        specifier: ^4.19.4
-        version: 4.19.4
+        specifier: ^4.20.3
+        version: 4.20.3
     devDependencies:
       komekko:
         specifier: ^0.2.1
@@ -350,8 +350,8 @@ importers:
   packages/sdk-utils:
     dependencies:
       axios:
-        specifier: ^1.9.0
-        version: 1.9.0
+        specifier: ^1.10.0
+        version: 1.10.0
     devDependencies:
       komekko:
         specifier: ^0.2.1
@@ -2065,8 +2065,8 @@ packages:
     resolution: {integrity: sha512-Xm7bpRXnDSX2YE2YFfBk2FnF0ep6tmG7xPh8iHee8MIcrgq762Nkce856dYtJYLkuIoYZvGfTs/PbZhideTcEg==}
     engines: {node: '>=4'}
 
-  axios@1.9.0:
-    resolution: {integrity: sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==}
+  axios@1.10.0:
+    resolution: {integrity: sha512-/1xYAC4MP/HEG+3duIhFr4ZQXR4sQXOIe+o6sdqzeykGLx6Upp/1p8MHqhINOvGeP7xyNHe7tsiJByc4SSVUxw==}
 
   axobject-query@4.1.0:
     resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
@@ -3775,8 +3775,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  tsx@4.19.4:
-    resolution: {integrity: sha512-gK5GVzDkJK1SI1zwHf32Mqxf2tSJkNx+eYcNly5+nHvWqXUJYUkWBQtKauoESz3ymezAI++ZwT855x5p5eop+Q==}
+  tsx@4.20.3:
+    resolution: {integrity: sha512-qjbnuR9Tr+FJOMBqJCW5ehvIo/buZq7vH7qD7JziU98h6l3qGy0a/yPFjwO+y0/T7GFpNgNAvEcPPVfyT8rrPQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -5219,7 +5219,7 @@ snapshots:
 
   '@kazura/http-client@0.0.2':
     dependencies:
-      axios: 1.9.0
+      axios: 1.10.0
     transitivePeerDependencies:
       - debug
 
@@ -5721,7 +5721,7 @@ snapshots:
       '@use-gesture/core': 10.3.0
       react: 18.3.1
 
-  '@vitejs/plugin-react@4.5.2(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4))':
+  '@vitejs/plugin-react@4.5.2(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3))':
     dependencies:
       '@babel/core': 7.27.4
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.4)
@@ -5729,7 +5729,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.11
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4)
+      vite: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -5954,7 +5954,7 @@ snapshots:
 
   axe-core@4.10.3: {}
 
-  axios@1.9.0:
+  axios@1.10.0:
     dependencies:
       follow-redirects: 1.15.9
       form-data: 4.0.2
@@ -8030,7 +8030,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsx@4.19.4:
+  tsx@4.20.3:
     dependencies:
       esbuild: 0.25.4
       get-tsconfig: 4.10.0
@@ -8132,15 +8132,15 @@ snapshots:
 
   validator@13.15.0: {}
 
-  vite-plugin-eslint@1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4)):
+  vite-plugin-eslint@1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3)):
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@types/eslint': 8.56.12
       eslint: 8.57.1
       rollup: 2.79.2
-      vite: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4)
+      vite: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3)
 
-  vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.19.4):
+  vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(tsx@4.20.3):
     dependencies:
       esbuild: 0.25.4
       fdir: 6.4.4(picomatch@4.0.2)
@@ -8152,7 +8152,7 @@ snapshots:
       '@types/node': 22.15.31
       fsevents: 2.3.3
       jiti: 2.4.2
-      tsx: 4.19.4
+      tsx: 4.20.3
 
   which-boxed-primitive@1.1.1:
     dependencies:
