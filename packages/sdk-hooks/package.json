@@ -10,7 +10,7 @@
     "build": "pnpm clean && komekko"
   },
   "dependencies": {
-    "@kazura/web-util": "^2.4.2",
+    "@kazura/web-util": "^2.4.4",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
     "@react-monorepo-project-template/sdk-types": "workspace:*",
