@@ -23,7 +23,7 @@ function generateUpdatedContent(fileList: string[], existingContent: string): st
 }
 
 function format() {
-  const command = `npx prettier --write "${entryFile}"`
+  const command = `pnpm exec prettier --write "${entryFile}"`
   exec(command, (error, stdout) => {
     if (error) {
       console.error(`Error formatting the file: ${error.message}`)

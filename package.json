@@ -11,6 +11,7 @@
     "project:build:production": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:production"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "prettier": "^3.6.0"
   }
 }
