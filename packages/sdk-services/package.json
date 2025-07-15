@@ -14,7 +14,7 @@
   "dependencies": {
     "@kazura/http-client": "^0.0.2",
     "@kazura/web-crypto": "^3.2.0",
-    "@kazura/web-util": "^2.4.4",
+    "@kazura/web-util": "^2.5.0",
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
@@ -28,6 +28,6 @@
     "typescript": "^5.8.3"
   },
   "engines": {
-    "node": ">=22.17.0"
+    "node": ">=22.17.1"
   }
 }

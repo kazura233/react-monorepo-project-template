@@ -12,8 +12,8 @@ importers:
         specifier: ^7.0.3
         version: 7.0.3
       prettier:
-        specifier: ^3.6.0
-        version: 3.6.1
+        specifier: ^3.6.2
+        version: 3.6.2
 
   packages/project-desktop:
     dependencies:
@@ -27,14 +27,14 @@ importers:
         specifier: ^11.14.0
         version: 11.14.0(@types/react@18.3.23)(react@18.3.1)
       '@emotion/styled':
-        specifier: ^11.14.0
-        version: 11.14.0(@emotion/react@11.14.0(@types/react@18.3.23)(react@18.3.1))(@types/react@18.3.23)(react@18.3.1)
+        specifier: ^11.14.1
+        version: 11.14.1(@emotion/react@11.14.0(@types/react@18.3.23)(react@18.3.1))(@types/react@18.3.23)(react@18.3.1)
       '@kazura/common':
         specifier: ^0.0.1
         version: 0.0.1
       '@kazura/react-hooks':
         specifier: ^0.1.0
-        version: 0.1.0(@types/react@18.3.23)(react-router@7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        version: 0.1.0(@types/react@18.3.23)(react-router@7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@kazura/react-mobx':
         specifier: ^1.0.1
         version: 1.0.1(@types/react@18.3.23)(mobx@6.13.7)(react@18.3.1)
@@ -48,8 +48,8 @@ importers:
         specifier: ^0.0.2
         version: 0.0.2
       '@kazura/web-util':
-        specifier: ^2.4.4
-        version: 2.4.4
+        specifier: ^2.5.0
+        version: 2.5.0
       '@react-monorepo-project-template/sdk-commons':
         specifier: workspace:*
         version: link:../sdk-commons
@@ -66,11 +66,11 @@ importers:
         specifier: workspace:*
         version: link:../sdk-utils
       ahooks:
-        specifier: ^3.8.5
-        version: 3.8.5(react@18.3.1)
+        specifier: ^3.9.0
+        version: 3.9.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       antd:
-        specifier: ^5.26.2
-        version: 5.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^5.26.5
+        version: 5.26.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       mobx:
         specifier: ^6.13.7
         version: 6.13.7
@@ -81,18 +81,18 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-router:
-        specifier: ^7.6.2
-        version: 7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^7.6.3
+        version: 7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-router-dom:
-        specifier: ^7.6.2
-        version: 7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^7.6.3
+        version: 7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@kazura/eslint-config-react-app':
         specifier: 7.0.1-patch.1
         version: 7.0.1-patch.1(@babel/plugin-syntax-flow@7.27.1(@babel/core@7.27.4))(@babel/plugin-transform-react-jsx@7.27.1(@babel/core@7.27.4))(eslint@8.57.1)(typescript@5.8.3)
       '@types/node':
-        specifier: ^22.15.33
-        version: 22.15.33
+        specifier: ^22.16.4
+        version: 22.16.4
       '@types/react':
         specifier: ^18.3.23
         version: 18.3.23
@@ -101,7 +101,7 @@ importers:
         version: 18.3.7(@types/react@18.3.23)
       '@vitejs/plugin-react':
         specifier: ^4.6.0
-        version: 4.6.0(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3))
+        version: 4.6.0(vite@6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -113,10 +113,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.3.5
-        version: 6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3)
+        version: 6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3)
       vite-plugin-eslint:
         specifier: ^1.8.1
-        version: 1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3))
+        version: 1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3))
 
   packages/project-mobile:
     dependencies:
@@ -127,14 +127,14 @@ importers:
         specifier: ^11.14.0
         version: 11.14.0(@types/react@18.3.23)(react@18.3.1)
       '@emotion/styled':
-        specifier: ^11.14.0
-        version: 11.14.0(@emotion/react@11.14.0(@types/react@18.3.23)(react@18.3.1))(@types/react@18.3.23)(react@18.3.1)
+        specifier: ^11.14.1
+        version: 11.14.1(@emotion/react@11.14.0(@types/react@18.3.23)(react@18.3.1))(@types/react@18.3.23)(react@18.3.1)
       '@kazura/common':
         specifier: ^0.0.1
         version: 0.0.1
       '@kazura/react-hooks':
         specifier: ^0.1.0
-        version: 0.1.0(@types/react@18.3.23)(react-router@7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        version: 0.1.0(@types/react@18.3.23)(react-router@7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@kazura/react-mobx':
         specifier: ^1.0.1
         version: 1.0.1(@types/react@18.3.23)(mobx@6.13.7)(react@18.3.1)
@@ -148,8 +148,8 @@ importers:
         specifier: ^0.0.2
         version: 0.0.2
       '@kazura/web-util':
-        specifier: ^2.4.4
-        version: 2.4.4
+        specifier: ^2.5.0
+        version: 2.5.0
       '@react-monorepo-project-template/sdk-commons':
         specifier: workspace:*
         version: link:../sdk-commons
@@ -166,8 +166,8 @@ importers:
         specifier: workspace:*
         version: link:../sdk-utils
       ahooks:
-        specifier: ^3.8.5
-        version: 3.8.5(react@18.3.1)
+        specifier: ^3.9.0
+        version: 3.9.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       antd-mobile:
         specifier: ^5.39.0
         version: 5.39.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -184,18 +184,18 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-router:
-        specifier: ^7.6.2
-        version: 7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^7.6.3
+        version: 7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-router-dom:
-        specifier: ^7.6.2
-        version: 7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^7.6.3
+        version: 7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@kazura/eslint-config-react-app':
         specifier: 7.0.1-patch.1
         version: 7.0.1-patch.1(@babel/plugin-syntax-flow@7.27.1(@babel/core@7.27.4))(@babel/plugin-transform-react-jsx@7.27.1(@babel/core@7.27.4))(eslint@8.57.1)(typescript@5.8.3)
       '@types/node':
-        specifier: ^22.15.33
-        version: 22.15.33
+        specifier: ^22.16.4
+        version: 22.16.4
       '@types/react':
         specifier: ^18.3.23
         version: 18.3.23
@@ -204,7 +204,7 @@ importers:
         version: 18.3.7(@types/react@18.3.23)
       '@vitejs/plugin-react':
         specifier: ^4.6.0
-        version: 4.6.0(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3))
+        version: 4.6.0(vite@6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -216,10 +216,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.3.5
-        version: 6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3)
+        version: 6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3)
       vite-plugin-eslint:
         specifier: ^1.8.1
-        version: 1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3))
+        version: 1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3))
 
   packages/sdk-commons:
     devDependencies:
@@ -239,8 +239,8 @@ importers:
   packages/sdk-hooks:
     dependencies:
       '@kazura/web-util':
-        specifier: ^2.4.4
-        version: 2.4.4
+        specifier: ^2.5.0
+        version: 2.5.0
       '@react-monorepo-project-template/sdk-commons':
         specifier: workspace:*
         version: link:../sdk-commons
@@ -257,8 +257,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1
       react-router:
-        specifier: ^7.6.2
-        version: 7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^7.6.3
+        version: 7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       komekko:
         specifier: ^0.2.1
@@ -285,8 +285,8 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       '@kazura/web-util':
-        specifier: ^2.4.4
-        version: 2.4.4
+        specifier: ^2.5.0
+        version: 2.5.0
       '@react-monorepo-project-template/sdk-commons':
         specifier: workspace:*
         version: link:../sdk-commons
@@ -1111,8 +1111,8 @@ packages:
   '@emotion/sheet@1.4.0':
     resolution: {integrity: sha512-fTBW9/8r2w3dXWYM4HCB1Rdp8NLibOw2+XELH5m5+AkWiL/KqYX6dc0kKYlaYyKjrQ6ds33MCdMPEwgs2z1rqg==}
 
-  '@emotion/styled@11.14.0':
-    resolution: {integrity: sha512-XxfOnXFffatap2IyCeJyNov3kiDQWoR08gPUQxvbL7fxKryGBKUZUkG6Hz48DZwVrJSVh9sJboyV1Ds4OW6SgA==}
+  '@emotion/styled@11.14.1':
+    resolution: {integrity: sha512-qEEJt42DuToa3gurlH4Qqc1kVpNq8wO8cJtDzU46TjlzWjDlsVyevtYCRijVq3SrHsROS+gVQ8Fnea108GnKzw==}
     peerDependencies:
       '@emotion/react': ^11.0.0-rc.0
       '@types/react': '*'
@@ -1411,8 +1411,8 @@ packages:
     resolution: {integrity: sha512-kEAyJ6U+6Xw/ya4NjzIXFGRSeiaea2ooZ7nV84+Ku49PcourAqq824MwNgPNt59KXcKxjaLmuadjBZvqR/s4TQ==}
     engines: {node: '>=20.13.1'}
 
-  '@kazura/web-util@2.4.4':
-    resolution: {integrity: sha512-wSiO6Ej5Cx9JlzxO25cyn3iGOTtxw2Dcn3bPSRdkwJSG5exF+tZ8XXXa1es9/NQNRtL//4yHMYbBry+JLTMOlA==}
+  '@kazura/web-util@2.5.0':
+    resolution: {integrity: sha512-xdr5WVTWUZM3FvKnBMMQc95G1bFyPgYQ2GKlBYo/TC+DB1iTRhFurw5war9AQ2f8CllkF2JNM863jAfYMHVLkg==}
     engines: {node: '>=22.16.0'}
 
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
@@ -1791,6 +1791,9 @@ packages:
   '@types/babel__traverse@7.20.7':
     resolution: {integrity: sha512-dkO5fhS7+/oos4ciWxyEyjWe48zmG6wbCheo/G2ZnHx4fs3EU6YC6UM8rk56gAjNJ9P3MTH2jo5jb92/K6wbng==}
 
+  '@types/big.js@6.2.2':
+    resolution: {integrity: sha512-e2cOW9YlVzFY2iScnGBBkplKsrn2CsObHQ2Hiw4V1sSyiGbgWL8IyqE3zFi1Pt5o1pdAtYkDAIsF3KKUPjdzaA==}
+
   '@types/crypto-js@4.2.2':
     resolution: {integrity: sha512-sDOLlVbHhXpAUAL0YHDUUwDZf3iN4Bwi4W6a0W0b+QcAezUbRtH4FVb+9J4h+XFPW7l/gQ9F8qC7P+Ec4k8QVQ==}
 
@@ -1812,8 +1815,8 @@ packages:
   '@types/minimatch@3.0.5':
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
 
-  '@types/node@22.15.33':
-    resolution: {integrity: sha512-wzoocdnnpSxZ+6CjW4ADCK1jVmd1S/J3ArNWfn8FDDQtRm8dkDg7TA+mvek2wNrfCgwuZxqEOiB9B1XCJ6+dbw==}
+  '@types/node@22.16.4':
+    resolution: {integrity: sha512-PYRhNtZdm2wH/NT2k/oAJ6/f2VD2N2Dag0lGlx2vWgMSJXGNmlce5MiTQzoWAiIJtso30mjnfQCOKVH+kAQC/g==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -1934,11 +1937,12 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ahooks@3.8.5:
-    resolution: {integrity: sha512-Y+MLoJpBXVdjsnnBjE5rOSPkQ4DK+8i5aPDzLJdIOsCpo/fiAeXcBY1Y7oWgtOK0TpOz0gFa/XcyO1UGdoqLcw==}
+  ahooks@3.9.0:
+    resolution: {integrity: sha512-r20/C38aFyU3Zqp3620gkdLnxmQhnmWORB3eGGTDlM4i/fOc0GUvM+f2oleMzEu7b3+pHXyzz+FB6ojxsUdYdw==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
@@ -1971,8 +1975,8 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  antd@5.26.2:
-    resolution: {integrity: sha512-C8dBgwSzXfUS5ousUN+mfcaGFhEOd9wuyhvmw0lQnU9gukpRoFe1B0UKzvr6Z50QgapIl+s03nYlQJUghKqVjQ==}
+  antd@5.26.5:
+    resolution: {integrity: sha512-HB7Cr0tPZMMeAyDDH8KZU0aP8/uO51oasmflJhDBzaRRZmLT8Pyjtt8qS22Sc839glm8gpKQcaG0mln66Gt9Fg==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -2086,6 +2090,9 @@ packages:
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+
+  big.js@7.0.1:
+    resolution: {integrity: sha512-iFgV784tD8kq4ccF1xtNMZnXeZzVuXWWM+ERFzKQjv+A5G9HC8CY3DuV45vgzFFcW+u2tIvmF95+AzWgs6BjCg==}
 
   brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
@@ -3174,8 +3181,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.6.1:
-    resolution: {integrity: sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3455,15 +3462,15 @@ packages:
     resolution: {integrity: sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==}
     engines: {node: '>=0.10.0'}
 
-  react-router-dom@7.6.2:
-    resolution: {integrity: sha512-Q8zb6VlTbdYKK5JJBLQEN06oTUa/RAbG/oQS1auK1I0TbJOXktqm+QENEVJU6QvWynlXPRBXI3fiOQcSEA78rA==}
+  react-router-dom@7.6.3:
+    resolution: {integrity: sha512-DiWJm9qdUAmiJrVWaeJdu4TKu13+iB/8IEi0EW/XgaHCjW/vWGrwzup0GVvaMteuZjKnh5bEvJP/K0MDnzawHw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
 
-  react-router@7.6.2:
-    resolution: {integrity: sha512-U7Nv3y+bMimgWjhlT5CRdzHPu2/KVmqPwKUCChW8en5P3znxUqwlYFlbmyj8Rgp1SF6zs5X4+77kBVknkg6a0w==}
+  react-router@7.6.3:
+    resolution: {integrity: sha512-zf45LZp5skDC6I3jDLXQUu0u26jtuP4lEGbc7BbdyxenBN1vJSTA18czM2D+h5qyMBuMrD+9uB+mU37HIoKGRA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -4964,7 +4971,7 @@ snapshots:
 
   '@emotion/sheet@1.4.0': {}
 
-  '@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@18.3.23)(react@18.3.1))(@types/react@18.3.23)(react@18.3.1)':
+  '@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@18.3.23)(react@18.3.1))(@types/react@18.3.23)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.27.1
       '@emotion/babel-plugin': 11.13.5
@@ -5180,12 +5187,12 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@kazura/react-hooks@0.1.0(@types/react@18.3.23)(react-router@7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
+  '@kazura/react-hooks@0.1.0(@types/react@18.3.23)(react-router@7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@kazura/web-util': 1.2.5
       '@types/react': 18.3.23
       react: 18.3.1
-      react-router: 7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-router: 7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
   '@kazura/react-mobx@1.0.1(@types/react@18.3.23)(mobx@6.13.7)(react@18.3.1)':
     dependencies:
@@ -5219,12 +5226,14 @@ snapshots:
       file-saver: 2.0.5
       uuid: 9.0.1
 
-  '@kazura/web-util@2.4.4':
+  '@kazura/web-util@2.5.0':
     dependencies:
       '@kazura/common': 0.0.1
       '@kazura/validator': 0.0.1
+      '@types/big.js': 6.2.2
       '@types/file-saver': 2.0.7
       '@types/uuid': 10.0.0
+      big.js: 7.0.1
       copy-to-clipboard: 3.3.3
       dayjs: 1.11.13
       dompurify: 3.2.6
@@ -5547,6 +5556,8 @@ snapshots:
     dependencies:
       '@babel/types': 7.27.6
 
+  '@types/big.js@6.2.2': {}
+
   '@types/crypto-js@4.2.2': {}
 
   '@types/eslint@8.56.12':
@@ -5564,7 +5575,7 @@ snapshots:
 
   '@types/minimatch@3.0.5': {}
 
-  '@types/node@22.15.33':
+  '@types/node@22.16.4':
     dependencies:
       undici-types: 6.21.0
 
@@ -5682,7 +5693,7 @@ snapshots:
       '@use-gesture/core': 10.3.0
       react: 18.3.1
 
-  '@vitejs/plugin-react@4.6.0(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3))':
+  '@vitejs/plugin-react@4.6.0(vite@6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3))':
     dependencies:
       '@babel/core': 7.27.4
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.4)
@@ -5690,7 +5701,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.19
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3)
+      vite: 6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -5702,7 +5713,7 @@ snapshots:
 
   acorn@8.8.2: {}
 
-  ahooks@3.8.5(react@18.3.1):
+  ahooks@3.9.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.27.1
       dayjs: 1.11.13
@@ -5710,6 +5721,7 @@ snapshots:
       js-cookie: 3.0.5
       lodash: 4.17.21
       react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       react-fast-compare: 3.2.2
       resize-observer-polyfill: 1.5.1
       screenfull: 5.2.0
@@ -5742,7 +5754,7 @@ snapshots:
       '@rc-component/mini-decimal': 1.1.0
       '@react-spring/web': 9.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@use-gesture/react': 10.3.0(react@18.3.1)
-      ahooks: 3.8.5(react@18.3.1)
+      ahooks: 3.9.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       antd-mobile-icons: 0.3.0
       antd-mobile-v5-count: 1.0.1
       classnames: 2.5.1
@@ -5761,7 +5773,7 @@ snapshots:
       tslib: 2.8.1
       use-sync-external-store: 1.5.0(react@18.3.1)
 
-  antd@5.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  antd@5.26.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@ant-design/colors': 7.2.1
       '@ant-design/cssinjs': 1.23.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -5980,6 +5992,8 @@ snapshots:
       - supports-color
 
   balanced-match@1.0.2: {}
+
+  big.js@7.0.1: {}
 
   brace-expansion@1.1.11:
     dependencies:
@@ -7237,7 +7251,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.6.1: {}
+  prettier@3.6.2: {}
 
   process@0.11.10: {}
 
@@ -7603,13 +7617,13 @@ snapshots:
 
   react-refresh@0.17.0: {}
 
-  react-router-dom@7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-router-dom@7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-router: 7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-router: 7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  react-router@7.6.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-router@7.6.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       cookie: 1.0.2
       react: 18.3.1
@@ -8099,15 +8113,15 @@ snapshots:
 
   validator@13.15.0: {}
 
-  vite-plugin-eslint@1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3)):
+  vite-plugin-eslint@1.8.1(eslint@8.57.1)(vite@6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3)):
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@types/eslint': 8.56.12
       eslint: 8.57.1
       rollup: 2.79.2
-      vite: 6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3)
+      vite: 6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3)
 
-  vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(tsx@4.20.3):
+  vite@6.3.5(@types/node@22.16.4)(jiti@2.4.2)(tsx@4.20.3):
     dependencies:
       esbuild: 0.25.4
       fdir: 6.4.4(picomatch@4.0.2)
@@ -8116,7 +8130,7 @@ snapshots:
       rollup: 4.40.2
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.15.33
+      '@types/node': 22.16.4
       fsevents: 2.3.3
       jiti: 2.4.2
       tsx: 4.20.3

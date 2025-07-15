@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@10.12.3",
+  "packageManager": "pnpm@10.13.1",
   "scripts": {
     "use-proxy-install": "cross-env https_proxy=http://127.0.0.1:1087 http_proxy=http://127.0.0.1:1087 all_proxy=socks5://127.0.0.1:1086 pnpm install",
     "upi": "pnpm run use-proxy-install",
@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "prettier": "^3.6.0"
+    "prettier": "^3.6.2"
   }
 }
