@@ -13,6 +13,6 @@ export const httpClient = new HttpClient({
   baseURL: ConfigContextHolder.getContext()?.get(SERVER_BASE_API),
   timeout: 5000,
   headers: {
-    'Content-Type': 'application/json',
-  },
+    'Content-Type': 'application/json'
+  }
 })

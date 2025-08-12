@@ -3,5 +3,5 @@ export interface IDemoType {
 }
 
 export const __demoType = (): IDemoType => ({
-  num: 0,
+  num: 0
 })

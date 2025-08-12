@@ -7,6 +7,6 @@ export type { ResponsePacket } from './helpers'
 
 export const services = {
   mergeConfig: (config: HttpRequestConfig) => httpClient.mergeConfig(config),
-  exportHttpInstance: () => httpClient.exportHttpInstance(),
+  exportHttpInstance: () => httpClient.exportHttpInstance()
   //export//
 }

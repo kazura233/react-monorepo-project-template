@@ -8,5 +8,5 @@ import { demo$test } from './services/demo$test'
 export const services = {
   mergeConfig: (config: HttpRequestConfig) => httpClient.mergeConfig(config),
   exportHttpInstance: () => httpClient.exportHttpInstance(),
-  demo$test,
+  demo$test
 }

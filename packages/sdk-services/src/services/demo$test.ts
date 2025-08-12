@@ -8,5 +8,5 @@ export const demo$test = (data: IRequestResource) =>
   httpClient.request<ResponsePacket<IResponseResource>>({
     url: '/demo/test',
     method: 'POST',
-    data,
+    data
   })

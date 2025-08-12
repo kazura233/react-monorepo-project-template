@@ -1,3 +1,3 @@
 export enum SdkCommonsEnumDemo {
-  DEMO = 'demo',
+  DEMO = 'demo'
 }

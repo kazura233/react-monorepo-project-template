@@ -12,7 +12,7 @@ export const WingBlank: React.FC<PropsWithChildren<WingBlankProps>> = (props) =>
       style={{
         marginLeft: size,
         marginRight: size,
-        ...style,
+        ...style
       }}
     >
       {children}
