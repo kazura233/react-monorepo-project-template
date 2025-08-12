@@ -1,4 +1,4 @@
-import { ResponsePacket, httpClient } from '../helpers'
+import { type ResponsePacket, httpClient } from '../helpers'
 
 export interface IRequestResource {}
 

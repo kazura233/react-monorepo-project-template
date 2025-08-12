@@ -17,7 +17,7 @@ function generateUpdatedContent(fileList: string[], existingContent: string): st
   existingContent = existingContent.replace('//import//', imports)
 
   const exports = fileList.map((file) => `  ${file},`).join('\n')
-  existingContent = existingContent.replace('//export//', exports)
+  existingContent = existingContent.replace('//export//', ',' + exports)
 
   return existingContent
 }
@@ -29,7 +29,6 @@ function format() {
       console.error(`Error formatting the file: ${error.message}`)
       return
     }
-
     console.log(`File formatted successfully:\n${stdout}`)
   })
 }
