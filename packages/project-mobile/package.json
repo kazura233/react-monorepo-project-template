@@ -10,6 +10,7 @@
     "build:development": "tsc && vite build --mode development",
     "build:testing": "tsc && vite build --mode testing",
     "build:production": "tsc && vite build --mode production",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -31,23 +32,20 @@
     "ahooks": "^3.9.0",
     "antd-mobile": "^5.39.0",
     "antd-mobile-icons": "^0.3.0",
+    "classnames": "^2.5.1",
     "mobx": "^6.13.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router": "^7.8.0",
-    "react-router-dom": "^7.8.0"
+    "react-router": "^7.8.0"
   },
   "devDependencies": {
-    "@kazura/eslint-config-react-app": "7.0.1-patch.1",
     "@types/node": "^22.17.1",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^5.0.0",
-    "cross-env": "^10.0.0",
-    "eslint": "^9.33.0",
     "typescript": "^5.9.2",
     "vite": "^7.1.2",
-    "vite-plugin-eslint": "^1.8.1"
+    "@kazura/vite-plugin-eslint": "^0.0.1"
   },
   "engines": {
     "node": ">=22.18.0"

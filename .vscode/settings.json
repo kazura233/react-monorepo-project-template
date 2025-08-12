@@ -1,5 +1,8 @@
 {
   "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -29,6 +32,8 @@
   "prettier.semi": false,
   "prettier.tabWidth": 2,
   "prettier.singleQuote": true,
+  "prettier.useTabs": false,
+  "prettier.trailingComma": "none",
   "npm.packageManager": "pnpm",
   "search.exclude": {
     "**/node_modules": true,
@@ -38,5 +43,8 @@
     "/packages/*/dist": true,
     "/submodules": true,
     "pnpm-lock.yaml": true
+  },
+  "workbench.editorAssociations": {
+    "*.mdc": "default"
   }
 }

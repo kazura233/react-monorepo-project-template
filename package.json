@@ -1,9 +1,10 @@
 {
   "private": true,
+  "type": "module",
   "packageManager": "pnpm@10.14.0",
   "scripts": {
-    "use-proxy-install": "cross-env https_proxy=http://127.0.0.1:1087 http_proxy=http://127.0.0.1:1087 all_proxy=socks5://127.0.0.1:1086 pnpm install",
-    "upi": "pnpm run use-proxy-install",
+    "format": "prettier --write --cache \"**/*.{ts,tsx}\"",
+    "lint": "eslint --cache .",
     "clean:sdk": "pnpm -r --filter=./packages/sdk* run clean",
     "build:sdk": "pnpm -r --filter=./packages/sdk* run build",
     "project:build:development": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:development",
@@ -11,7 +12,14 @@
     "project:build:production": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:production"
   },
   "devDependencies": {
+    "@eslint/js": "^9.32.0",
     "cross-env": "^10.0.0",
-    "prettier": "^3.6.2"
+    "eslint": "^9.32.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2",
+    "typescript-eslint": "^8.38.0",
+    "tsx": "^4.20.3"
   }
 }

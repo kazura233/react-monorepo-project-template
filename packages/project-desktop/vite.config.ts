@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import eslint from 'vite-plugin-eslint'
+import eslint from '@kazura/vite-plugin-eslint'
 import { fileURLToPath, URL } from 'node:url'
 
 const NODE_ENV = process.env.NODE_ENV
@@ -15,13 +15,13 @@ export default defineConfig(({ command, mode }) => {
     base: './',
     resolve: {
       alias: {
-        '~': fileURLToPath(new URL('./src', import.meta.url)),
-      },
+        '~': fileURLToPath(new URL('./src', import.meta.url))
+      }
     },
     plugins: [eslint(), react()],
     server: {
       host: '0.0.0.0',
-      port: 3001,
+      port: 3001
       // proxy: {
       //   '/api': {
       //     target: 'http://127.0.0.1:8080',
@@ -33,10 +33,10 @@ export default defineConfig(({ command, mode }) => {
       target: 'es2015',
       cssTarget: 'chrome80',
       minify: NODE_ENV !== 'development',
-      sourcemap: NODE_ENV === 'development',
+      sourcemap: NODE_ENV === 'development'
     },
     esbuild: {
-      pure: NODE_ENV === 'development' ? undefined : ['console.log'],
-    },
+      pure: NODE_ENV === 'development' ? undefined : ['console.log']
+    }
   }
 })

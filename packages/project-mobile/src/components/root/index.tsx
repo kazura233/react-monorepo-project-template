@@ -1,4 +1,4 @@
-import { HashRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router'
 import { RootRoute } from './root-router'
 import { ConfigProvider } from 'antd-mobile'
 import zhCN from 'antd-mobile/es/locales/zh-CN'

@@ -1,9 +1,0 @@
-{
-  "root": true,
-  "extends": [
-    "@kazura/eslint-config-react-app"
-  ],
-  "rules": {
-    "@typescript-eslint/no-unused-vars": "off"
-  }
-}

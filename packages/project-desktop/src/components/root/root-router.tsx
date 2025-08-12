@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router'
 import LayoutHelloWorld from '~/layouts/hello-world'
 import PageHelloWorld from '~/pages/hello-world'
 

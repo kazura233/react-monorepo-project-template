@@ -5,7 +5,7 @@ export default defineConfig([
     rollupPluginsOptions: {
       esbuildOptions: {
         minify: true,
-        pure: ['console.log'],
+        pure: ['console.log']
       },
       obfuscatorOptions: {
         controlFlowFlattening: true,
@@ -23,8 +23,8 @@ export default defineConfig([
         stringArrayWrappersParametersMaxCount: 5,
         stringArrayWrappersType: 'function',
         stringArrayThreshold: 1,
-        transformObjectKeys: true,
-      },
-    },
-  },
+        transformObjectKeys: true
+      }
+    }
+  }
 ])

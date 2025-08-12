@@ -5,6 +5,5 @@
   "tabWidth": 2,
   "singleQuote": true,
   "useTabs": false,
-  "trimTrailingWhitespace": true,
-  "insertFinalNewline": true
+  "trailingComma": "none"
 }
