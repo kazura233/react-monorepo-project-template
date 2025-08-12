@@ -46,7 +46,7 @@
     "cross-env": "^10.0.0",
     "eslint": "^9.33.0",
     "typescript": "^5.9.2",
-    "vite": "^6.3.5",
+    "vite": "^7.1.2",
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
