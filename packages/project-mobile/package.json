@@ -36,10 +36,10 @@
     "mobx": "^6.13.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router": "^7.8.0"
+    "react-router": "^7.8.1"
   },
   "devDependencies": {
-    "@types/node": "^22.17.1",
+    "@types/node": "^22.17.2",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^5.0.0",
