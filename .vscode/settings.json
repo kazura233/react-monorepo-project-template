@@ -5,14 +5,14 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.autoImports": true,
   "javascript.suggest.autoImports": true,
-  "[yaml]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -41,6 +41,10 @@
   "editor.tabSize": 2,
   "editor.wordWrapColumn": 100,
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
   "prettier.endOfLine": "lf",
   "prettier.printWidth": 100,
   "prettier.semi": false,
@@ -49,6 +53,17 @@
   "prettier.useTabs": false,
   "prettier.trailingComma": "none",
   "npm.packageManager": "pnpm",
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,

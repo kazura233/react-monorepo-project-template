@@ -3,6 +3,8 @@
     "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
     "esbenp.prettier-vscode",
-    "styled-components.vscode-styled-components"
+    "styled-components.vscode-styled-components",
+    "streetsidesoftware.code-spell-checker",
+    "christian-kohler.path-intellisense"
   ]
 }
