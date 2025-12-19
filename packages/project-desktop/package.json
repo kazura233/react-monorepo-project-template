@@ -39,7 +39,7 @@
     "react-router": "^7.8.0"
   },
   "devDependencies": {
-    "@types/node": "^22.17.1",
+    "@types/node": "^24.10.4",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^5.0.0",
@@ -48,6 +48,6 @@
     "@kazura/vite-plugin-eslint": "^0.0.1"
   },
   "engines": {
-    "node": ">=22.18.0"
+    "node": ">=24.12.0"
   }
 }
