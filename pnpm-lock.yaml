@@ -60,8 +60,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(@types/react@18.3.23)(mobx@6.13.7)(react@18.3.1)
       '@kazura/react-toolkit':
-        specifier: ^0.1.1
-        version: 0.1.1(@types/react@18.3.23)(react@18.3.1)
+        specifier: ^1.1.0
+        version: 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@kazura/validator':
         specifier: ^0.0.1
         version: 0.0.1
@@ -151,8 +151,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(@types/react@18.3.23)(mobx@6.13.7)(react@18.3.1)
       '@kazura/react-toolkit':
-        specifier: ^0.1.1
-        version: 0.1.1(@types/react@18.3.23)(react@18.3.1)
+        specifier: ^1.1.0
+        version: 1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@kazura/validator':
         specifier: ^0.0.1
         version: 0.0.1
@@ -863,12 +863,12 @@ packages:
       mobx: '>=6.13.0'
       react: '>=18.3.1'
 
-  '@kazura/react-toolkit@0.1.1':
-    resolution: {integrity: sha512-cfI3iucczNNCMbRQ8oe/SiGJ1a9u4BFApdNWBsWQ408yiZEHzmjThm0YsJESgh4yyqYhZ7ipBl7avAvjmi+0rQ==}
-    engines: {node: '>=20.12.0'}
+  '@kazura/react-toolkit@1.1.0':
+    resolution: {integrity: sha512-bZERuXHpmkn5wDOqhtdhJyGW2qxmem6bIYdCSOYvdqnm4j0zsHAKakOyIwQu8J0KB2JIZtg+wJQWLhNYxWljMA==}
+    engines: {node: '>=22.20.0'}
     peerDependencies:
-      '@types/react': '>=18.2.74'
-      react: '>=18.2.0'
+      react: '>=18.3.1'
+      react-dom: '>=18.3.1'
 
   '@kazura/validator@0.0.1':
     resolution: {integrity: sha512-ZjJ2qXcJr8V7jZ4DUyEJP9TiiJKjPsHmheKXF5GZvWwqcT1rPi8NVgFQyFYLC+VkhKRwZgk42+QmHJtf/AXP3g==}
@@ -1961,6 +1961,7 @@ packages:
 
   intersection-observer@0.12.2:
     resolution: {integrity: sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==}
+    deprecated: The Intersection Observer polyfill is no longer needed and can safely be removed. Intersection Observer has been Baseline since 2019.
 
   inversify@6.0.1:
     resolution: {integrity: sha512-B3ex30927698TJENHR++8FfEaJGqoWOgI6ZY5Ht/nLUsFCwHn6akbwtnUAPCgUepAnTpe2qHxhDNjoKLyz6rgQ==}
@@ -3438,10 +3439,10 @@ snapshots:
       mobx: 6.13.7
       react: 18.3.1
 
-  '@kazura/react-toolkit@0.1.1(@types/react@18.3.23)(react@18.3.1)':
+  '@kazura/react-toolkit@1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@types/react': 18.3.23
       react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
   '@kazura/validator@0.0.1':
     dependencies:

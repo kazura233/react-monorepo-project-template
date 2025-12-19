@@ -20,7 +20,7 @@
     "@emotion/styled": "^11.14.1",
     "@kazura/react-mobx": "^1.0.1",
     "@kazura/common": "^0.0.1",
-    "@kazura/react-toolkit": "^0.1.1",
+    "@kazura/react-toolkit": "^1.1.0",
     "@kazura/validator": "^0.0.1",
     "@kazura/react-hooks": "^0.1.0",
     "@kazura/web-util": "^2.5.0",
