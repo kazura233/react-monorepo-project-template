@@ -22,7 +22,7 @@
     "@kazura/common": "^0.0.1",
     "@kazura/react-toolkit": "^1.1.0",
     "@kazura/validator": "^0.0.1",
-    "@kazura/react-hooks": "^0.1.0",
+    "@kazura/react-hooks": "^1.0.0",
     "@kazura/web-util": "^2.5.0",
     "@kazura/vite-config": "^0.0.2",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",

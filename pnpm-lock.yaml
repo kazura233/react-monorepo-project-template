@@ -54,8 +54,8 @@ importers:
         specifier: ^0.0.1
         version: 0.0.1
       '@kazura/react-hooks':
-        specifier: ^0.1.0
-        version: 0.1.0(@types/react@18.3.23)(react-router@7.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.0
+        version: 1.0.0(@types/react@18.3.23)(react-router@7.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@kazura/react-mobx':
         specifier: ^2.0.0
         version: 2.0.0(@types/react@18.3.23)(mobx@6.13.7)(react@18.3.1)
@@ -145,8 +145,8 @@ importers:
         specifier: ^0.0.1
         version: 0.0.1
       '@kazura/react-hooks':
-        specifier: ^0.1.0
-        version: 0.1.0(@types/react@18.3.23)(react-router@7.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.0
+        version: 1.0.0(@types/react@18.3.23)(react-router@7.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@kazura/react-mobx':
         specifier: ^2.0.0
         version: 2.0.0(@types/react@18.3.23)(mobx@6.13.7)(react@18.3.1)
@@ -847,13 +847,13 @@ packages:
     resolution: {integrity: sha512-LyqadHF41bs+Loz52tv9LS1KUAL6MZULsjyX2Sfln9QcjxA5s+dLIMfFc6WTFjyUW+4auyfNyOjf2hKOH+eOUg==}
     engines: {node: '>=20.13.1'}
 
-  '@kazura/react-hooks@0.1.0':
-    resolution: {integrity: sha512-2ZYlzZbGx4vmpLsiv/mEs84U9p0yhu51f7HHzCZCvopVriTeaU3KW562q64XztbasOoq5CbsNnZGXdoogmI1Gw==}
-    engines: {node: '>=20.5.0'}
+  '@kazura/react-hooks@1.0.0':
+    resolution: {integrity: sha512-afnN9PcP7KLtzn+qLV+eVg74DJdyqbAkpu2MH7Nee9SXP+ErZRk+1QyoZvfnI0/0Fjowiwdxyf7lY/JWRprO6w==}
+    engines: {node: '>=22.20.0'}
     peerDependencies:
-      '@types/react': '>=18.2'
-      react: '>=18.2'
-      react-router: '>=6.18'
+      '@types/react': '>=18.3.24'
+      react: '>=18.3.1'
+      react-router: '>=7.9.2'
 
   '@kazura/react-mobx@2.0.0':
     resolution: {integrity: sha512-RrWvkxXpB26E93jyIaaVt6VQNPJfh1YojprZZJO6/9ZRnGoESfxlWqytFjJpq2XImtcjkzVyM2M1peXiaeXzdg==}
@@ -889,13 +889,13 @@ packages:
     resolution: {integrity: sha512-rE09Vo5qsR2jq4urvTKHlk0Dvb0/CQ+f+jyGY5xR8cBb1sP5TWtEC2MjelQU5UdSfa0hs4IIyfYmoNANBMZ/hw==}
     engines: {node: '>=22.15.0'}
 
-  '@kazura/web-util@1.2.5':
-    resolution: {integrity: sha512-kEAyJ6U+6Xw/ya4NjzIXFGRSeiaea2ooZ7nV84+Ku49PcourAqq824MwNgPNt59KXcKxjaLmuadjBZvqR/s4TQ==}
-    engines: {node: '>=20.13.1'}
-
   '@kazura/web-util@2.5.0':
     resolution: {integrity: sha512-xdr5WVTWUZM3FvKnBMMQc95G1bFyPgYQ2GKlBYo/TC+DB1iTRhFurw5war9AQ2f8CllkF2JNM863jAfYMHVLkg==}
     engines: {node: '>=22.16.0'}
+
+  '@kazura/web-util@2.5.1':
+    resolution: {integrity: sha512-5ibKKz8TrlDAIbh5zbgwFMeKHxPU4xtGv0kwDXQgK4Z0bi2mWViW9IExu641MyOXsd3tkj09FpVVC3esZQoeXg==}
+    engines: {node: '>=22.18.0'}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1313,9 +1313,6 @@ packages:
 
   '@types/uuid@10.0.0':
     resolution: {integrity: sha512-7gqG38EyHgyP1S+7+xomFtL+ZNHcKv6DwNaCZmJmo1vgMugyF3TCnXVg4t1uk89mLNwnLtnY3TpOpCOyp1/xHQ==}
-
-  '@types/uuid@9.0.8':
-    resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
 
   '@types/validator@13.15.0':
     resolution: {integrity: sha512-nh7nrWhLr6CBq9ldtw0wx+z9wKnnv/uTVLA9g/3/TcOYxbpOSZE+MhKPmWqU+K0NvThjhv12uD8MuqijB0WzEA==}
@@ -2838,10 +2835,6 @@ packages:
     resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
     hasBin: true
 
-  uuid@9.0.1:
-    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
-    hasBin: true
-
   validator@13.15.0:
     resolution: {integrity: sha512-36B2ryl4+oL5QxZ3AzD0t5SsMNGvTtQHpjgFO5tbNxfXbMFkY822ktCDe1MnlqV3301QQI9SLHDNJokDI+Z9pA==}
     engines: {node: '>= 0.10'}
@@ -3426,9 +3419,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@kazura/react-hooks@0.1.0(@types/react@18.3.23)(react-router@7.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
+  '@kazura/react-hooks@1.0.0(@types/react@18.3.23)(react-router@7.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@kazura/web-util': 1.2.5
+      '@kazura/web-util': 2.5.1
       '@types/react': 18.3.23
       react: 18.3.1
       react-router: 7.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3464,16 +3457,21 @@ snapshots:
       crypto-js: 4.2.0
       jsencrypt: 3.3.2
 
-  '@kazura/web-util@1.2.5':
+  '@kazura/web-util@2.5.0':
     dependencies:
+      '@kazura/common': 0.0.1
+      '@kazura/validator': 0.0.1
+      '@types/big.js': 6.2.2
       '@types/file-saver': 2.0.7
-      '@types/uuid': 9.0.8
+      '@types/uuid': 10.0.0
+      big.js: 7.0.1
       copy-to-clipboard: 3.3.3
       dayjs: 1.11.13
+      dompurify: 3.2.6
       file-saver: 2.0.5
-      uuid: 9.0.1
+      uuid: 11.1.0
 
-  '@kazura/web-util@2.5.0':
+  '@kazura/web-util@2.5.1':
     dependencies:
       '@kazura/common': 0.0.1
       '@kazura/validator': 0.0.1
@@ -3837,8 +3835,6 @@ snapshots:
     optional: true
 
   '@types/uuid@10.0.0': {}
-
-  '@types/uuid@9.0.8': {}
 
   '@types/validator@13.15.0': {}
 
@@ -5579,8 +5575,6 @@ snapshots:
       which-typed-array: 1.1.19
 
   uuid@11.1.0: {}
-
-  uuid@9.0.1: {}
 
   validator@13.15.0: {}
 
