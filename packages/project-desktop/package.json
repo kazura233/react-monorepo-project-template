@@ -7,9 +7,9 @@
     "dev": "vite --mode development",
     "dev:test": "vite --mode testing",
     "dev:prod": "vite --mode production",
-    "build:development": "tsc && vite build --mode development",
-    "build:testing": "tsc && vite build --mode testing",
-    "build:production": "tsc && vite build --mode production",
+    "build:development": "tsc -b && vite build --mode development",
+    "build:testing": "tsc -b && vite build --mode testing",
+    "build:production": "tsc -b && vite build --mode production",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -18,13 +18,13 @@
     "@emotion/css": "^11.13.5",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@kazura/react-mobx": "^2.0.0",
     "@kazura/common": "^0.0.1",
+    "@kazura/react-hooks": "^1.0.0",
+    "@kazura/react-mobx": "^2.0.0",
     "@kazura/react-toolkit": "^1.1.0",
     "@kazura/validator": "^0.0.1",
-    "@kazura/react-hooks": "^1.0.0",
-    "@kazura/web-util": "^2.5.1",
     "@kazura/vite-config": "^0.0.2",
+    "@kazura/web-util": "^2.5.1",
     "@react-monorepo-project-template/sdk-commons": "workspace:*",
     "@react-monorepo-project-template/sdk-services": "workspace:*",
     "@react-monorepo-project-template/sdk-stores": "workspace:*",
@@ -39,13 +39,14 @@
     "react-router": "^7.11.0"
   },
   "devDependencies": {
+    "@kazura/vite-plugin-eslint": "^0.0.1",
     "@types/node": "^24.10.4",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
+    "babel-plugin-react-compiler": "^1.0.0",
     "typescript": "^5.9.3",
-    "vite": "^7.3.0",
-    "@kazura/vite-plugin-eslint": "^0.0.1"
+    "vite": "^7.3.0"
   },
   "engines": {
     "node": ">=24.12.0"

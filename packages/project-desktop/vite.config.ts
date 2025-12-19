@@ -18,8 +18,14 @@ export default defineConfig(({ command, mode }) => {
         '~': fileURLToPath(new URL('./src', import.meta.url))
       }
     },
-    plugins: [eslint(), react()],
-    server: {
+    plugins: [
+      eslint(),
+      react({
+        babel: {
+          plugins: [['babel-plugin-react-compiler']]
+        }
+      })
+    ],    server: {
       host: '0.0.0.0',
       port: 3001
       // proxy: {
