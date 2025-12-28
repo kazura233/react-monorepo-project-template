@@ -31,7 +31,7 @@
     "@react-monorepo-project-template/sdk-types": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
     "ahooks": "^3.9.6",
-    "antd": "^6.1.1",
+    "antd": "^6.1.2",
     "classnames": "^2.5.1",
     "mobx": "^6.15.0",
     "react": "^19.2.3",
