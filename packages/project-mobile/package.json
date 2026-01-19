@@ -19,7 +19,7 @@
     "@emotion/styled": "^11.14.1",
     "@kazura/common": "^0.0.1",
     "@kazura/react-hooks": "^1.0.0",
-    "@kazura/react-mobx": "^2.0.0",
+    "@kazura/react-mobx": "^2.0.1",
     "@kazura/react-toolkit": "^1.1.0",
     "@kazura/validator": "^0.0.1",
     "@kazura/vite-config": "^0.0.2",
@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@kazura/vite-plugin-eslint": "^0.0.1",
-    "@types/node": "^24.10.8",
+    "@types/node": "^24.10.9",
     "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
