@@ -31,24 +31,24 @@
     "@react-monorepo-project-template/sdk-types": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
     "ahooks": "^3.9.6",
-    "antd": "^6.2.0",
+    "antd": "^6.3.1",
     "classnames": "^2.5.1",
     "mobx": "^6.15.0",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-router": "^7.12.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router": "^7.13.1"
   },
   "devDependencies": {
     "@kazura/vite-plugin-eslint": "^0.0.1",
-    "@types/node": "^24.10.9",
-    "@types/react": "^19.2.8",
+    "@types/node": "^24.11.0",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.2",
+    "@vitejs/plugin-react": "^5.1.4",
     "babel-plugin-react-compiler": "^1.0.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.1"
   },
   "engines": {
-    "node": ">=24.13.0"
+    "node": ">=24.14.0"
   }
 }
