@@ -25,7 +25,8 @@ export default defineConfig(({ command, mode }) => {
           plugins: [['babel-plugin-react-compiler']]
         }
       })
-    ],    server: {
+    ],
+    server: {
       host: '0.0.0.0',
       port: 3002
       // proxy: {
@@ -36,8 +37,8 @@ export default defineConfig(({ command, mode }) => {
       // },
     },
     build: {
-      target: 'es2015',
-      cssTarget: 'chrome80',
+      target: ['es2015', 'chrome80'],
+      cssTarget: ['chrome80'],
       minify: NODE_ENV !== 'development',
       sourcemap: NODE_ENV === 'development'
     },
