@@ -14,7 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/icons": "^6.1.0",
+    "@ant-design/icons": "^6.3.2",
     "@emotion/css": "^11.13.5",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -31,24 +31,24 @@
     "@react-monorepo-project-template/sdk-types": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
     "ahooks": "^3.9.7",
-    "antd": "^6.3.3",
+    "antd": "^6.5.0",
     "classnames": "^2.5.1",
-    "mobx": "^6.15.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-router": "^7.13.2"
+    "mobx": "^6.16.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router": "^7.18.1"
   },
   "devDependencies": {
     "@kazura/vite-plugin-eslint": "^0.0.1",
-    "@types/node": "^24.12.0",
-    "@types/react": "^19.2.14",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.2.0",
     "babel-plugin-react-compiler": "^1.0.0",
     "typescript": "^5.9.3",
-    "vite": "^7.3.1"
+    "vite": "^7.3.6"
   },
   "engines": {
-    "node": ">=24.14.0"
+    "node": ">=24.18.0"
   }
 }

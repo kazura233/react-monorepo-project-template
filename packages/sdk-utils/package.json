@@ -10,7 +10,7 @@
     "build": "pnpm clean && komekko"
   },
   "dependencies": {
-    "axios": "^1.13.6"
+    "axios": "^1.18.1"
   },
   "devDependencies": {
     "komekko": "^0.2.1",
@@ -19,6 +19,6 @@
     "typescript": "^5.9.3"
   },
   "engines": {
-    "node": ">=24.14.0"
+    "node": ">=24.18.0"
   }
 }
