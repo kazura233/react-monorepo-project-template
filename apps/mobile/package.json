@@ -1,5 +1,5 @@
 {
-  "name": "project-desktop",
+  "name": "@apps/mobile",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -14,7 +14,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/icons": "^6.3.2",
     "@emotion/css": "^11.13.5",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -31,7 +30,8 @@
     "@react-monorepo-project-template/sdk-types": "workspace:*",
     "@react-monorepo-project-template/sdk-utils": "workspace:*",
     "ahooks": "^3.9.7",
-    "antd": "^6.5.0",
+    "antd-mobile": "^5.42.3",
+    "antd-mobile-icons": "^0.3.0",
     "classnames": "^2.5.1",
     "mobx": "^6.16.1",
     "react": "^19.2.7",
