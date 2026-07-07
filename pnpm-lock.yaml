@@ -55,7 +55,7 @@ importers:
         version: 0.0.1
       '@kazura/react-hooks':
         specifier: ^1.0.0
-        version: 1.0.0(@types/react@19.2.17)(react-router@7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
+        version: 1.0.0(@types/react@19.2.17)(react-router@8.1.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
       '@kazura/react-mobx':
         specifier: ^2.0.1
         version: 2.0.1(mobx@6.16.1)(react@19.2.7)
@@ -105,8 +105,8 @@ importers:
         specifier: ^19.2.7
         version: 19.2.7(react@19.2.7)
       react-router:
-        specifier: ^7.18.1
-        version: 7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: ^8.1.0
+        version: 8.1.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     devDependencies:
       '@kazura/vite-plugin-eslint':
         specifier: ^0.0.1
@@ -149,7 +149,7 @@ importers:
         version: 0.0.1
       '@kazura/react-hooks':
         specifier: ^1.0.0
-        version: 1.0.0(@types/react@19.2.17)(react-router@7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
+        version: 1.0.0(@types/react@19.2.17)(react-router@8.1.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
       '@kazura/react-mobx':
         specifier: ^2.0.1
         version: 2.0.1(mobx@6.16.1)(react@19.2.7)
@@ -202,8 +202,8 @@ importers:
         specifier: ^19.2.7
         version: 19.2.7(react@19.2.7)
       react-router:
-        specifier: ^7.18.1
-        version: 7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: ^8.1.0
+        version: 8.1.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     devDependencies:
       '@kazura/vite-plugin-eslint':
         specifier: ^0.0.1
@@ -266,8 +266,8 @@ importers:
         specifier: ^19.2.7
         version: 19.2.7
       react-router:
-        specifier: ^7.18.1
-        version: 7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: ^8.1.0
+        version: 8.1.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     devDependencies:
       komekko:
         specifier: ^0.2.1
@@ -2126,9 +2126,8 @@ packages:
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
 
-  cookie@1.0.2:
-    resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
-    engines: {node: '>=18'}
+  cookie-es@3.1.1:
+    resolution: {integrity: sha512-UaXxwISYJPTr9hwQxMFYZ7kNhSXboMXP+Z3TRX6f1/NyaGPfuNUZOWP1pUEb75B2HjfklIYLVRfWiFZJyC6Npg==}
 
   copy-to-clipboard@3.3.3:
     resolution: {integrity: sha512-2KV8NhB5JqC3ky0r9PMCAZKbUHSwtEo4CwCs0KXgruG43gX5PMqDEBbVU4OUzw2MuAWUfsuFmWvEKG5QRfSnJA==}
@@ -2867,12 +2866,12 @@ packages:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
     engines: {node: '>=0.10.0'}
 
-  react-router@7.18.1:
-    resolution: {integrity: sha512-GDLgg3i3uM0aeJO3Fm+TCS+sDQ7gu12T6x0qdTEzcwqEfleci7JwugVNIF3U//0FWKnJT7ptG+20B2jfDqnZAg==}
-    engines: {node: '>=20.0.0'}
+  react-router@8.1.0:
+    resolution: {integrity: sha512-Mdfi61uObuvWNN9OhChOC0HV6YWOIfKRzEWOvCHRSuQg8IM+Nv10edaM/2HE8ZixBpUTdQbruyWqC3sDkkh9vw==}
+    engines: {node: '>=22.22.0'}
     peerDependencies:
-      react: '>=18'
-      react-dom: '>=18'
+      react: '>=19.2.7'
+      react-dom: '>=19.2.7'
     peerDependenciesMeta:
       react-dom:
         optional: true
@@ -2948,9 +2947,6 @@ packages:
     resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
     engines: {node: '>=10'}
     hasBin: true
-
-  set-cookie-parser@2.7.1:
-    resolution: {integrity: sha512-IOc8uWeOZgnb3ptbCURJWNjWUPcO3ZnTTdzsurqERrP6nPyv+paC55vJM0LpOlT2ne+Ix+9+CRG1MNLlyZ4GjQ==}
 
   set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
@@ -3793,12 +3789,12 @@ snapshots:
       - debug
       - supports-color
 
-  '@kazura/react-hooks@1.0.0(@types/react@19.2.17)(react-router@7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)':
+  '@kazura/react-hooks@1.0.0(@types/react@19.2.17)(react-router@8.1.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)':
     dependencies:
       '@kazura/web-util': 2.5.1
       '@types/react': 19.2.17
       react: 19.2.7
-      react-router: 7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      react-router: 8.1.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
 
   '@kazura/react-mobx@2.0.1(mobx@6.16.1)(react@19.2.7)':
     dependencies:
@@ -4839,7 +4835,7 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  cookie@1.0.2: {}
+  cookie-es@3.1.1: {}
 
   copy-to-clipboard@3.3.3:
     dependencies:
@@ -5645,11 +5641,10 @@ snapshots:
 
   react-refresh@0.18.0: {}
 
-  react-router@7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  react-router@8.1.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
     dependencies:
-      cookie: 1.0.2
+      cookie-es: 3.1.1
       react: 19.2.7
-      set-cookie-parser: 2.7.1
     optionalDependencies:
       react-dom: 19.2.7(react@19.2.7)
 
@@ -5755,8 +5750,6 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.7.3: {}
-
-  set-cookie-parser@2.7.1: {}
 
   set-function-length@1.2.2:
     dependencies:
