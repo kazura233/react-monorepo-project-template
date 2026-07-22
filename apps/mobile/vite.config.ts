@@ -18,14 +18,7 @@ export default defineConfig(({ command, mode }) => {
         '~': fileURLToPath(new URL('./src', import.meta.url))
       }
     },
-    plugins: [
-      eslint(),
-      react({
-        babel: {
-          plugins: [['babel-plugin-react-compiler']]
-        }
-      })
-    ],
+    plugins: [eslint(), react()],
     server: {
       host: '0.0.0.0',
       port: 3002
@@ -37,6 +30,7 @@ export default defineConfig(({ command, mode }) => {
       // },
     },
     build: {
+      outDir: `dist_${mode}`,
       target: ['es2015', 'chrome80'],
       cssTarget: ['chrome80'],
       minify: NODE_ENV !== 'development',

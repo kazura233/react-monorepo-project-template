@@ -9,8 +9,10 @@ lerna-debug.log*
 
 node_modules
 dist
+dist_*
 dist-ssr
 *.local
+*.local.json
 
 # Editor directories and files
 .vscode/*
@@ -24,4 +26,9 @@ dist-ssr
 *.sln
 *.sw?
 
+.vite
+.pnpm-store
 .eslintcache
+
+react-fs-router.d.ts
+routes.gen.ts
