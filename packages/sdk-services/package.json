@@ -1,5 +1,5 @@
 {
-  "name": "@react-monorepo-project-template/sdk-services",
+  "name": "@internal-packages/sdk-services",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -19,8 +19,8 @@
     "@kazura/web-crypto": "^3.2.1",
     "@kazura/web-util": "^2.5.1",
     "@kazura/vite-config": "^0.0.2",
-    "@react-monorepo-project-template/sdk-commons": "workspace:*",
-    "@react-monorepo-project-template/sdk-utils": "workspace:*",
+    "@internal-packages/sdk-commons": "workspace:*",
+    "@internal-packages/sdk-utils": "workspace:*",
     "axios": "^1.18.1"
   },
   "devDependencies": {

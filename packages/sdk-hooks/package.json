@@ -1,5 +1,5 @@
 {
-  "name": "@react-monorepo-project-template/sdk-hooks",
+  "name": "@internal-packages/sdk-hooks",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "@kazura/web-util": "^2.5.1",
-    "@react-monorepo-project-template/sdk-commons": "workspace:*",
-    "@react-monorepo-project-template/sdk-utils": "workspace:*",
-    "@react-monorepo-project-template/sdk-types": "workspace:*",
+    "@internal-packages/sdk-commons": "workspace:*",
+    "@internal-packages/sdk-utils": "workspace:*",
+    "@internal-packages/sdk-types": "workspace:*",
     "@types/react": "^19.2.17",
     "react": "^19.2.7",
     "react-router": "^8.1.0"

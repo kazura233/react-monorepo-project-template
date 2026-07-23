@@ -1,6 +1,6 @@
 import HttpClient from '@kazura/http-client'
 import { ConfigContextHolder } from '@kazura/vite-config'
-import { SERVER_BASE_API } from '@react-monorepo-project-template/sdk-commons'
+import { SERVER_BASE_API } from '@internal-packages/sdk-commons'
 
 export interface ResponsePacket<T = any> {
   code: number

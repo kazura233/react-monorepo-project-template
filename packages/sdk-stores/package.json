@@ -1,5 +1,5 @@
 {
-  "name": "@react-monorepo-project-template/sdk-stores",
+  "name": "@internal-packages/sdk-stores",
   "version": "0.1.0",
   "private": true,
   "type": "module",

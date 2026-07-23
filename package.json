@@ -5,11 +5,11 @@
   "scripts": {
     "format": "prettier --write --cache \"**/*.{ts,tsx}\"",
     "lint": "eslint --cache .",
-    "clean:sdk": "pnpm -r --filter=./packages/sdk* run clean",
-    "build:sdk": "pnpm -r --filter=./packages/sdk* run build",
-    "project:build:development": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:development",
-    "project:build:testing": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:testing",
-    "project:build:production": "pnpm clean:sdk && pnpm build:sdk && pnpm -r --filter=./packages/project* run build:production"
+    "packages:clean": "pnpm -r --filter=./packages/* run clean",
+    "packages:build": "pnpm -r --filter=./packages/* run build",
+    "apps:build:development": "pnpm packages:clean && packages:build && pnpm -r --filter=./apps/* run build:development",
+    "apps:build:testing": "pnpm packages:clean && packages:build && pnpm -r --filter=./apps/* run build:testing",
+    "apps:build:production": "pnpm packages:clean && packages:build && pnpm -r --filter=./apps/* run build:production"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

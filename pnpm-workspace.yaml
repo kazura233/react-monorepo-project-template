@@ -2,7 +2,9 @@ packages:
   - 'apps/*'
   - 'packages/*'
 allowBuilds:
+  '@code-inspector/core': true
   esbuild: true
+  node-pty: true
 minimumReleaseAgeExclude:
   - 'vite-plugin-global-vars'
   - 'vite-plugin-react-fs-router'

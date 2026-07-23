@@ -4,7 +4,7 @@ import { ConfigProvider } from 'antd-mobile'
 import zhCN from 'antd-mobile/es/locales/zh-CN'
 
 import { MobxProvider } from '@kazura/react-mobx'
-import { stores } from '@react-monorepo-project-template/sdk-stores'
+import { stores } from '@internal-packages/sdk-stores'
 
 export const Root = () => {
   return (

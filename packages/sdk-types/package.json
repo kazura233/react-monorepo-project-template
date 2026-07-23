@@ -1,5 +1,5 @@
 {
-  "name": "@react-monorepo-project-template/sdk-types",
+  "name": "@internal-packages/sdk-types",
   "version": "0.1.0",
   "private": true,
   "type": "module",
