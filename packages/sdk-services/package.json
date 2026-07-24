@@ -15,7 +15,7 @@
     "g:index": "tsx src/cli/generate-index.ts"
   },
   "dependencies": {
-    "@kazura/http-client": "^0.0.2",
+    "@kazura/http-client": "^0.1.2",
     "@kazura/web-crypto": "^3.2.1",
     "@kazura/web-util": "^2.5.1",
     "@kazura/vite-config": "^0.0.2",
