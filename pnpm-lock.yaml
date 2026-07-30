@@ -73,7 +73,7 @@ importers:
         version: 1.0.0(@types/react@19.2.17)(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react@19.2.8)
       '@kazura/react-mobx':
         specifier: ^2.0.1
-        version: 2.0.1(mobx@6.16.1)(react@19.2.8)
+        version: 2.0.1(mobx@7.0.0)(react@19.2.8)
       '@kazura/react-toolkit':
         specifier: ^1.1.0
         version: 1.1.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -96,8 +96,8 @@ importers:
         specifier: ^2.5.1
         version: 2.5.1
       mobx:
-        specifier: ^6.16.1
-        version: 6.16.1
+        specifier: ^7.0.0
+        version: 7.0.0
       react:
         specifier: ^19.2.8
         version: 19.2.8
@@ -173,7 +173,7 @@ importers:
         version: 1.0.0(@types/react@19.2.17)(react-router@8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react@19.2.8)
       '@kazura/react-mobx':
         specifier: ^2.0.1
-        version: 2.0.1(mobx@6.16.1)(react@19.2.8)
+        version: 2.0.1(mobx@7.0.0)(react@19.2.8)
       '@kazura/react-toolkit':
         specifier: ^1.1.0
         version: 1.1.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -199,8 +199,8 @@ importers:
         specifier: ^2.5.1
         version: 2.5.1
       mobx:
-        specifier: ^6.16.1
-        version: 6.16.1
+        specifier: ^7.0.0
+        version: 7.0.0
       react:
         specifier: ^19.2.8
         version: 19.2.8
@@ -335,10 +335,10 @@ importers:
     dependencies:
       '@kazura/react-mobx':
         specifier: ^2.0.1
-        version: 2.0.1(mobx@6.16.1)(react@19.2.8)
+        version: 2.0.1(mobx@7.0.0)(react@19.2.8)
       mobx:
-        specifier: 6.16.1
-        version: 6.16.1
+        specifier: 7.0.0
+        version: 7.0.0
     devDependencies:
       komekko:
         specifier: ^0.3.1
@@ -2710,8 +2710,8 @@ packages:
   mlly@1.7.4:
     resolution: {integrity: sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==}
 
-  mobx@6.16.1:
-    resolution: {integrity: sha512-syNcDdX3KT+Jq3je6eGjBhuc24Z68td2VG0zNFqRswaE433D9SNH5VRy/xrGbJsUixfppLLccXhAW9JSf6n+SQ==}
+  mobx@7.0.0:
+    resolution: {integrity: sha512-J+hR/wq6RdBnB4QXQRqGrWL9vOOLKaYhXh0ooxLAW4AE72av10Y5+xiaxohUYmPZiUswfpxMjQooYqpWkv+Fxg==}
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -3867,9 +3867,9 @@ snapshots:
       react: 19.2.8
       react-router: 8.3.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
 
-  '@kazura/react-mobx@2.0.1(mobx@6.16.1)(react@19.2.8)':
+  '@kazura/react-mobx@2.0.1(mobx@7.0.0)(react@19.2.8)':
     dependencies:
-      mobx: 6.16.1
+      mobx: 7.0.0
       react: 19.2.8
 
   '@kazura/react-toolkit@1.1.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
@@ -5724,7 +5724,7 @@ snapshots:
       pkg-types: 1.3.1
       ufo: 1.6.1
 
-  mobx@6.16.1: {}
+  mobx@7.0.0: {}
 
   ms@2.1.3: {}
 
