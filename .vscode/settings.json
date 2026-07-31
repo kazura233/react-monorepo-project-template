@@ -1,10 +1,8 @@
 {
-  "typescript.tsdk": "node_modules\\typescript\\lib",
-  "typescript.preferences.includePackageJsonAutoImports": "on",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.suggest.autoImports": true,
-  "javascript.suggest.autoImports": true,
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "js/ts.preferences.includePackageJsonAutoImports": "on",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.suggest.autoImports": true,
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
