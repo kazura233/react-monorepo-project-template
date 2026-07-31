@@ -15,8 +15,6 @@
   },
   "dependencies": {
     "@emotion/css": "^11.13.5",
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
     "@kazura/common": "^0.0.1",
     "@kazura/react-hooks": "^1.0.0",
     "@kazura/react-mobx": "^2.0.1",
