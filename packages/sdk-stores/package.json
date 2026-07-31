@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@kazura/react-mobx": "^2.0.1",
-    "mobx": "6.16.1"
+    "mobx": "7.0.0"
   },
   "devDependencies": {
     "komekko": "^0.3.1",
