@@ -4,9 +4,6 @@
     "lib": [
       "ES2023"
     ],
-    "types": [
-      "node"
-    ],
     "module": "Preserve",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
