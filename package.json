@@ -7,9 +7,9 @@
     "lint": "eslint --cache .",
     "packages:clean": "pnpm -r --filter=./packages/* run clean",
     "packages:build": "pnpm -r --filter=./packages/* run build",
-    "apps:build:development": "pnpm packages:clean && packages:build && pnpm -r --filter=./apps/* run build:development",
-    "apps:build:testing": "pnpm packages:clean && packages:build && pnpm -r --filter=./apps/* run build:testing",
-    "apps:build:production": "pnpm packages:clean && packages:build && pnpm -r --filter=./apps/* run build:production"
+    "apps:build:development": "pnpm packages:clean && pnpm packages:build && pnpm -r --filter=./apps/* run build:development",
+    "apps:build:testing": "pnpm packages:clean && pnpm packages:build && pnpm -r --filter=./apps/* run build:testing",
+    "apps:build:production": "pnpm packages:clean && pnpm packages:build && pnpm -r --filter=./apps/* run build:production"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
