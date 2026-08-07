@@ -16,12 +16,12 @@
   },
   "dependencies": {
     "@kazura/http-client": "^0.1.2",
-    "@kazura/web-crypto": "^3.2.1",
+    "@kazura/web-crypto": "^3.3.0",
     "@kazura/web-util": "^2.5.1",
     "@kazura/vite-config": "^0.0.2",
     "@internal-packages/sdk-commons": "workspace:*",
     "@internal-packages/sdk-utils": "workspace:*",
-    "axios": "^1.18.1"
+    "axios": "^1.19.0"
   },
   "devDependencies": {
     "komekko": "^0.3.1",
@@ -30,6 +30,6 @@
     "typescript": "^5.9.3"
   },
   "engines": {
-    "node": ">=24.18.0"
+    "node": ">=24.19.0"
   }
 }
