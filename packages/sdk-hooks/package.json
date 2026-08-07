@@ -17,7 +17,7 @@
     "@internal-packages/sdk-commons": "workspace:*",
     "@internal-packages/sdk-utils": "workspace:*",
     "@internal-packages/sdk-types": "workspace:*",
-    "@types/react": "^19.2.17",
+    "@types/react": "^19.2.18",
     "react": "^19.2.8",
     "react-router": "^8.3.0"
   },
@@ -28,6 +28,6 @@
     "typescript": "^5.9.3"
   },
   "engines": {
-    "node": ">=24.18.0"
+    "node": ">=24.19.0"
   }
 }
