@@ -1,7 +1,7 @@
 import React, { type PropsWithChildren } from 'react'
-import styled from '@emotion/styled'
+import { css, cx } from '@emotion/css'
 
-const StyledFooter = styled.footer`
+const footerStyle = css`
   box-sizing: border-box;
   flex-shrink: 0;
 `
@@ -15,8 +15,8 @@ export interface IFooterProps {
 export const Footer: React.FC<PropsWithChildren<IFooterProps>> = (props) => {
   const { height = '60px', children, style, className } = props
   return (
-    <StyledFooter style={{ height, ...style }} className={className}>
+    <footer style={{ height, ...style }} className={cx(footerStyle, className)}>
       {children}
-    </StyledFooter>
+    </footer>
   )
 }

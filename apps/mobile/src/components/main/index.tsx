@@ -1,7 +1,7 @@
 import React, { type PropsWithChildren } from 'react'
-import styled from '@emotion/styled'
+import { css, cx } from '@emotion/css'
 
-const StyledMain = styled.main`
+const mainStyle = css`
   display: block;
   flex: 1;
   flex-basis: auto;
@@ -18,8 +18,8 @@ export interface IMainProps {
 export const Main: React.FC<PropsWithChildren<IMainProps>> = (props) => {
   const { children, style, className } = props
   return (
-    <StyledMain style={style} className={className}>
+    <main style={style} className={cx(mainStyle, className)}>
       {children}
-    </StyledMain>
+    </main>
   )
 }

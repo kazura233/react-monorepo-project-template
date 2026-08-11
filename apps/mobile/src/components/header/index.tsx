@@ -1,7 +1,7 @@
 import React, { type PropsWithChildren } from 'react'
-import styled from '@emotion/styled'
+import { css, cx } from '@emotion/css'
 
-const StyledHeader = styled.header`
+const headerStyle = css`
   box-sizing: border-box;
   flex-shrink: 0;
 `
@@ -15,8 +15,8 @@ export interface IHeaderProps {
 export const Header: React.FC<PropsWithChildren<IHeaderProps>> = (props) => {
   const { height = '60px', children, style, className } = props
   return (
-    <StyledHeader style={{ height, ...style }} className={className}>
+    <header style={{ height, ...style }} className={cx(headerStyle, className)}>
       {children}
-    </StyledHeader>
+    </header>
   )
 }

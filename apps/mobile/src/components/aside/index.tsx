@@ -1,7 +1,7 @@
 import React, { type PropsWithChildren } from 'react'
-import styled from '@emotion/styled'
+import { css, cx } from '@emotion/css'
 
-const StyledAside = styled.aside`
+const asideStyle = css`
   overflow: auto;
   box-sizing: border-box;
   flex-shrink: 0;
@@ -16,8 +16,8 @@ export interface IAsideProps {
 export const Aside: React.FC<PropsWithChildren<IAsideProps>> = (props) => {
   const { width = '300px', children, style, className } = props
   return (
-    <StyledAside style={{ width, ...style }} className={className}>
+    <aside style={{ width, ...style }} className={cx(asideStyle, className)}>
       {children}
-    </StyledAside>
+    </aside>
   )
 }
