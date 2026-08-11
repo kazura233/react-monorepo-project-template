@@ -30,7 +30,6 @@
     "ahooks": "^3.9.7",
     "antd-mobile": "^5.42.3",
     "antd-mobile-icons": "^0.3.0",
-    "classnames": "^2.5.1",
     "mobx": "^6.16.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
