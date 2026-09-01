@@ -19,7 +19,7 @@
     "@internal-packages/sdk-types": "workspace:*",
     "@types/react": "^19.2.18",
     "react": "^19.2.8",
-    "react-router": "^8.3.0"
+    "react-router": "^8.3.1"
   },
   "devDependencies": {
     "komekko": "^0.3.1",
@@ -28,6 +28,6 @@
     "typescript": "^5.9.3"
   },
   "engines": {
-    "node": ">=24.19.0"
+    "node": ">=24.20.0"
   }
 }

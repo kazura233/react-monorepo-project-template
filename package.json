@@ -1,7 +1,7 @@
 {
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@11.21.0",
+  "packageManager": "pnpm@11.25.0",
   "scripts": {
     "format": "prettier --write --cache \"**/*.{ts,tsx}\"",
     "lint": "eslint --cache .",
@@ -15,12 +15,12 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "cross-env": "^10.1.0",
-    "eslint": "^10.8.1",
+    "eslint": "^10.9.1",
     "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.4",
-    "globals": "^17.9.0",
+    "eslint-plugin-react-refresh": "^0.5.5",
+    "globals": "^17.11.0",
     "prettier": "^3.9.6",
-    "typescript-eslint": "^8.67.0",
-    "tsx": "^4.23.12"
+    "typescript-eslint": "^8.69.0",
+    "tsx": "^4.23.13"
   }
 }
