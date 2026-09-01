@@ -10,3 +10,6 @@ minimumReleaseAgeExclude:
   - 'vite-plugin-react-fs-router'
   - '@kazura/*'
   - komekko
+  - '@ant-design/*'
+  - '@typescript-eslint/*'
+  - typescript-eslint
