@@ -30,7 +30,7 @@
     "ahooks": "^3.9.7",
     "antd-mobile": "^5.42.3",
     "antd-mobile-icons": "^0.3.0",
-    "mobx": "^6.16.1",
+    "mobx": "^7.0.3",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router": "^8.3.1"
